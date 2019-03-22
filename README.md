@@ -23,4 +23,4 @@ I don't own the rights to any data from R packages that are used here. If you wa
 
 # R Shiny
 
-Here is the link https://marija-stanojcic.shinyapps.io/R_datasets/ to my R Shiny app, where you can actually search through all of these data, see the preview and summary of the data that you are interestin in. 
+Here is the link https://marija-stanojcic.shinyapps.io/R_datasets/ to my R Shiny app, where you can actually search through all of these data, see the preview and summary of the data that you are interested in. 
