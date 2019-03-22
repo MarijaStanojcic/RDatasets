@@ -1,0 +1,221 @@
+---
+title: "Searching through some R Datasets"
+output:
+  html_document:
+    df_print: paged
+---
+
+Find data with desired specifics from the next list of datasets. 
+
+http://vincentarelbundock.github.io/Rdatasets/datasets.html
+
+```{r}
+library(dplyr)
+library(tidyverse)
+library(XML)
+
+url <- "http://vincentarelbundock.github.io/Rdatasets/datasets.html"
+
+data_df <- readHTMLTable(url, header = TRUE) # reading the web page
+
+rdatasets <- data_df[[2]] # getting the data frame of datas 
+
+# when reading the data column names have some unnecessary blank space 
+# removing blank space
+colnames(rdatasets) <- trimws(colnames(rdatasets))
+
+head(rdatasets)
+```
+
+
+```{r}
+rdatasets$Rows <- as.numeric(as.character(rdatasets$Rows))
+rdatasets$Cols <- as.numeric(as.character(rdatasets$Cols))
+
+# Some neccessary changes, since data "InfantMortality" and "LeafHoppers" don't exist anymore
+# Now we have "InfantMortality2010" which has 10 rows and 2 variables and 
+# title "Infant Mortality Rates"
+# and "Leafhoppers" with 8 rows and 3 columns and 
+# title ""
+rdatasets$Item <- as.character(rdatasets$Item)
+rdatasets$Item[1076] <- "InfantMortality2010"     # "InfantMortality" is in the 1076 row
+rdatasets$Item[1080] <- "Leafhoppers"             # "Leafhoopers" i in the 1080 row
+
+rdatasets$Title <- as.character(rdatasets$Title)
+rdatasets$Title[1076] <- "Infant Mortality Rates"
+rdatasets$Title[1080] <- "Leafhopper Diet and Longevity"   
+
+rdatasets$Rows[1076] <- 10
+rdatasets$Cols[1080] <- 3
+
+```
+
+### Install and load packages (Optional)
+
+This is done for easy look at many datasets, and avoiding manualy installing and loading necessary packages
+
+```{r}
+# getting the names of unique packages
+rdatasets$Package %>% unique() -> pkgs
+
+pkgs <- as.vector(t(pkgs)) # vector of all unique packages 
+
+#install.packages("easypackages")
+library(easypackages)
+
+
+installed_pkgs <- as.data.frame(installed.packages()) # data frame with all installed packages and 
+                                                     # some additional information about packages 
+head(installed_pkgs$Package) # preview of a first few installed packages' names
+
+
+# Installing packages that aren't already installed 
+t_f <- pkgs %in% installed_pkgs$Package # logical vector to see which packages are already installed
+
+# sum(t_f) = length(pkgs) means that all packages are already installed
+if (sum(t_f) != length(pkgs)) install.packages(pkgs[!t_f]) # install packages that aren't already installed
+
+# Loading packages
+loaded_pkgs <- (.packages()) # list of already loaded packages
+
+# loading packages that aren't already loaded 
+suppressPackageStartupMessages(easypackages::libraries(pkgs[!(pkgs %in% loaded_pkgs)]))  
+```
+
+Now you can easily check any data with help().
+
+```{r}
+# e.g.
+help("dogs")
+```
+
+Or you can search through for a specific number of rows, columns, etc.
+
+```{r}
+# e.g. 
+rdatasets %>% filter(Rows > 5 & Rows <= 30 & Cols == 3 & has_numeric==TRUE) %>% arrange(desc(Rows))
+```
+
+
+
+
+
+
+
+Checking if datas have factor, character variables, etc. 
+
+
+```{r}
+
+# 17th observation is cd4.nesteed which is a bootstrap, not data
+# code can't work for bootstrap, so cd4.nested is removed
+
+rdatasets_new <- rdatasets[c(1:16,18:1243),] # taking everything exept cd4.nested
+
+rdatasets_new$Item <- as.character(rdatasets_new$Item)
+rdatasets_new$Item[1075] <- "InfantMortality2010"     # "InfantMortality" is in the 1076 row
+rdatasets_new$Item[1079] <- "Leafhoppers"     
+
+rdatasets_new$Title <- as.character(rdatasets_new$Title)
+rdatasets_new$Title[1075] <- "Infant Mortality Rates"
+rdatasets_new$Title[1079] <- "Leafhopper Diet and Longevity"   
+
+rdatasets_new$Rows[1075] <- 10
+rdatasets_new$Rows[1079] <- 3
+
+itm <- as.character(rdatasets_new$Item)
+package_name <- as.character(rdatasets_new$Package)
+
+n <- nrow(rdatasets_new)
+
+v <- vector()
+
+# As there were some mistakes about specification of the datas from the website
+# check again for numeric, factor, logical and character variables
+
+# first asigning all of them to NA, and later on to TRUE/FALSE
+rdatasets_new$has_numeric <- NA
+rdatasets_new$has_factor <- NA
+rdatasets_new$has_character <- NA
+rdatasets_new$has_logical <- NA
+
+
+TF_factor <- vector()
+TF_num <- vector()
+TF_logic <- vector()
+TF_char <- vector()
+
+for (i in 1:n){
+  
+x <- itm[i]
+y <- package_name[i]
+
+data(list = x, package = y)
+w <- eval(as.name(x))   
+v <- is.data.frame(w)
+
+rm(x)
+rm(list = itm[i])
+  if(!v) {
+    w <- as.data.frame(w)  # if something is not a data frame, make it a data frame, so we can do map()
+  } 
+  
+  # checking if the data has variables of factor type
+  TF_factor <- (map(w, is.factor)==TRUE)
+  if(sum(TF_factor) == 0) {
+    rdatasets_new$has_factor[i] <- FALSE
+  } else if (sum(TF_factor) > 0){rdatasets_new$has_factor[i] <- TRUE}
+  
+  # checking if the data has variables of character type
+  TF_char <- (map(w, is.character)==TRUE)
+  if(sum(TF_char) == 0) {
+    rdatasets_new$has_character[i] <- FALSE
+  } else {rdatasets_new$has_character[i] <- TRUE}
+  
+  # checking if the data has variables of logical type
+  TF_logic <- (map(w, is.logical)==TRUE)
+  if(sum(TF_logic) == 0) {
+    rdatasets_new$has_logical[i] <- FALSE
+  } else {rdatasets_new$has_logical[i] <- TRUE}
+  
+  # checking if the data has variables of numeric type
+  TF_num <- (map(w, is.numeric)==TRUE)
+  if(sum(TF_num) == 0) {
+    rdatasets_new$has_numeric[i] <- FALSE
+  } else {rdatasets_new$has_numeric[i] <- TRUE}
+
+  
+rm(w) # removing w from environment
+
+}
+
+rdatasets_new <- rdatasets_new[,c(1:9,12)]
+```
+
+
+
+```{r}
+summary(rdatasets_new)
+```
+
+
+On the end export the dataset to .csv file, so it can be used for app. 
+
+```{r}
+# write.csv(rdatasets_new, file = "Rdatas.csv")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
