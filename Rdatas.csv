@@ -1,0 +1,1243 @@
+Package,Item,Title,Rows,Cols,has_logical,has_binary,has_numeric,has_character,has_factor
+boot,acme,Monthly Excess Returns,60,3,FALSE,FALSE,TRUE,TRUE,FALSE
+boot,aids,Delay in AIDS Reporting in England and Wales,570,6,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,aircondit,Failures of Air-conditioning Equipment,12,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,aircondit7,Failures of Air-conditioning Equipment,24,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,amis,Car Speeding and Warning Signs,8437,4,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,aml,Remission Times for Acute Myelogenous Leukaemia,23,3,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,beaver,Beaver Body Temperature Data,100,4,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,bigcity,Population of U.S. Cities,49,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,brambles,Spatial Location of Bramble Canes,823,3,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,breslow,Smoking Deaths Among Doctors,10,5,FALSE,TRUE,TRUE,FALSE,TRUE
+boot,calcium,Calcium Uptake Data,27,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,cane,Sugar-cane Disease Data,180,5,FALSE,FALSE,TRUE,FALSE,TRUE
+boot,capability,Simulated Manufacturing Process Data,75,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,catsM,Weight Data for Domestic Cats,97,3,FALSE,FALSE,TRUE,FALSE,TRUE
+boot,cav,Position of Muscle Caveolae,138,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,cd4,CD4 Counts for HIV-Positive Patients,20,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,channing,Channing House Data,462,5,FALSE,TRUE,TRUE,FALSE,TRUE
+boot,city,Population of U.S. Cities,10,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,claridge,Genetic Links to Left-handedness,37,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,cloth,Number of Flaws in Cloth,32,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,co.transfer,Carbon Monoxide Transfer,7,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,coal,Dates of Coal Mining Disasters,191,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,darwin,Darwin's Plant Height Differences,15,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,dogs,Cardiac Data for Domestic Dogs,7,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,downs.bc,Incidence of Down's Syndrome in British Columbia,30,3,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,ducks,Behavioral and Plumage Characteristics of Hybrid Ducks,11,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,fir,Counts of Balsam-fir Seedlings,50,3,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,frets,Head Dimensions in Brothers,25,4,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,grav,Acceleration Due to Gravity,26,2,FALSE,TRUE,TRUE,FALSE,TRUE
+boot,gravity,Acceleration Due to Gravity,81,2,FALSE,FALSE,TRUE,FALSE,TRUE
+boot,hirose,Failure Time of PET Film,44,3,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,islay,Jura Quartzite Azimuths on Islay,18,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,manaus,Average Heights of the Rio Negro river at Manaus,1080,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,melanoma,Survival from Malignant Melanoma,205,7,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,motor,Data from a Simulated Motorcycle Accident,94,4,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,neuro,Neurophysiological Point Process Data,469,6,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,nitrofen,Toxicity of Nitrofen in Aquatic Systems,50,5,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,nodal,Nodal Involvement in Prostate Cancer,53,7,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,nuclear,Nuclear Power Station Construction Data,32,11,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,paulsen,Neurotransmission in Guinea Pig Brains,346,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,poisons,Animal Survival Times,48,3,FALSE,FALSE,TRUE,FALSE,TRUE
+boot,polar,Pole Positions of New Caledonian Laterites,50,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,remission,Cancer Remission and Cell Activity,27,3,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,salinity,Water Salinity and River Discharge,28,4,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,survival,Survival of Rats after Radiation Doses,14,2,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,tau,Tau Particle Decay Modes,60,2,FALSE,FALSE,TRUE,FALSE,TRUE
+boot,tuna,Tuna Sighting Data,64,1,FALSE,FALSE,TRUE,FALSE,FALSE
+boot,urine,Urine Analysis Data,79,7,FALSE,TRUE,TRUE,FALSE,FALSE
+boot,wool,Australian Relative Wool Prices,309,2,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Adler,Experimenter Expectations,108,3,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,AMSsurvey,American Math Society Survey Data,24,5,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Angell,Moral Integration of American Cities,43,4,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Anscombe,U. S. State Public-School Expenditures,51,4,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Arrests,Arrests for Marijuana Possession,5226,8,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Baumann,Methods of Teaching Reading Comprehension,66,6,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,BEPS,British Election Panel Study,1525,10,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Bfox,Canadian Women's Labour-Force Participation,30,6,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Blackmore,Exercise Histories of Eating-Disordered and Control Subjects,945,4,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Burt,Fraudulent Data on IQs of Twins Raised Apart,27,3,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,CanPop,Canadian Population Data,16,2,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Chile,Voting Intentions in the 1988 Chilean Plebiscite,2700,8,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Chirot,The 1907 Romanian Peasant Rebellion,32,5,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Cowles,Cowles and Davis's Data on Volunteering,1421,4,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Davis,Self-Reports of Height and Weight,200,5,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,DavisThin,Davis's Data on Drive for Thinness,191,7,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Depredations,Minnesota Wolf Depredation Data,434,5,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Duncan,Duncan's Occupational Prestige Data,45,4,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Ericksen,The 1980 U.S. Census Undercount,66,9,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Florida,Florida County Voting,67,11,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Freedman,Crowding and Crime in U. S. Metropolitan Areas,110,4,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Friendly,Format Effects on Recall,30,2,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Ginzberg,Data on Depression,82,6,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Greene,Refugee Appeals,384,7,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,GSSvocab,Data from the General Social Survey (GSS) from the National Opinion Research Center of the University of Chicago.,28867,8,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Guyer,Anonymity and Cooperation,20,3,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Hartnagel,Canadian Crime-Rates Time Series,38,8,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Highway1,Highway Accidents,39,12,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,KosteckiDillon,Treatment of Migraine Headaches,4152,9,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Leinhardt,Data on Infant-Mortality,105,4,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,LoBD,Cancer drug data use to provide an example of the use of the skew power distributions.,84,9,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Mandel,Contrived Collinear Data,8,3,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Migration,Canadian Interprovincial Migration Data,90,8,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Moore,"Status, Authoritarianism, and Conformity",45,4,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,MplsDemo,"Minneapolis Demographic Data 2015, by Neighborhood",84,8,FALSE,FALSE,TRUE,TRUE,FALSE
+carData,MplsStops,Minneapolis Police Department 2017 Stop Data,51920,14,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Mroz,U.S. Women's Labor-Force Participation,753,8,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,OBrienKaiser,O'Brien and Kaiser's Repeated-Measures Data,16,17,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Ornstein,Interlocking Directorates Among Major Canadian Firms,248,4,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Pottery,Chemical Composition of Pottery,26,6,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Prestige,Prestige of Canadian Occupations,102,6,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Quartet,Four Regression Datasets,11,6,FALSE,TRUE,TRUE,FALSE,FALSE
+carData,Robey,Fertility and Contraception,50,3,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Sahlins,Agricultural Production in Mazulu Village,20,2,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Salaries,Salaries for Professors,397,6,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,SLID,Survey of Labour and Income Dynamics,7425,5,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Soils,Soil Compositions of Physical and Chemical Characteristics,48,14,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,States,Education and Related Statistics for the U.S. States,51,7,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,TitanicSurvival,Survival of Passengers on the Titanic,1309,4,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Transact,Transaction data,261,3,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,UN,"National Statistics from the United Nations, Mostly From 2009-2011",213,7,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,USPop,Population of the United States,22,2,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,Vocab,Vocabulary and Education,30351,4,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,WeightLoss,Weight Loss Data,34,7,FALSE,FALSE,TRUE,FALSE,TRUE
+carData,Wells,Well Switching in Bangladesh,3020,5,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Womenlf,Canadian Women's Labour-Force Participation,263,4,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Wong,Post-Coma Recovery of IQ,331,7,FALSE,TRUE,TRUE,FALSE,TRUE
+carData,Wool,Wool data,27,4,FALSE,FALSE,TRUE,FALSE,FALSE
+carData,WVS,World Values Surveys,5381,6,FALSE,TRUE,TRUE,FALSE,TRUE
+cluster,agriculture,European Union Agricultural Workforces,12,2,FALSE,FALSE,TRUE,FALSE,FALSE
+cluster,animals,Attributes of Animals,20,6,FALSE,TRUE,TRUE,FALSE,FALSE
+cluster,chorSub,Subset of C-horizon of Kola Data,61,10,FALSE,FALSE,TRUE,FALSE,FALSE
+cluster,flower,Flower Characteristics,18,8,FALSE,TRUE,TRUE,FALSE,TRUE
+cluster,plantTraits,Plant Species Traits Data,136,31,FALSE,TRUE,TRUE,FALSE,TRUE
+cluster,pluton,Isotopic Composition Plutonium Batches,45,4,FALSE,FALSE,TRUE,FALSE,FALSE
+cluster,ruspini,Ruspini Data,75,2,FALSE,FALSE,TRUE,FALSE,FALSE
+cluster,votes.repub,Votes for Republican Candidate in Presidential Elections,50,31,FALSE,FALSE,TRUE,FALSE,FALSE
+cluster,xclara,Bivariate Data Set with 3 Clusters,3000,2,FALSE,FALSE,TRUE,FALSE,FALSE
+COUNT,affairs,affairs,601,18,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,azcabgptca,azcabgptca,1959,6,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,azdrg112,azdrg112,1798,4,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,azpro,azpro,3589,6,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,azprocedure,azprocedure,3589,6,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,badhealth,badhealth,1127,3,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,fasttrakg,fasttrakg,15,9,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,fishing,fishing,147,7,FALSE,TRUE,TRUE,FALSE,TRUE
+COUNT,lbw,lbw,189,10,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,lbwgrp,lbwgrp,6,7,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,loomis,loomis,410,11,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,mdvis,mdvis,2227,13,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,medpar,medpar,1495,10,FALSE,TRUE,TRUE,TRUE,FALSE
+COUNT,nuts,nuts,52,8,FALSE,FALSE,TRUE,FALSE,FALSE
+COUNT,rwm,rwm,27326,4,FALSE,FALSE,TRUE,FALSE,FALSE
+COUNT,rwm1984,rwm1984,3874,15,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,rwm5yr,rwm5yr,19609,17,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,ships,ships,40,7,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,smoking,smoking,6,4,FALSE,TRUE,TRUE,FALSE,FALSE
+COUNT,titanic,titanic,1316,4,FALSE,TRUE,FALSE,FALSE,TRUE
+COUNT,titanicgrp,titanicgrp,12,5,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,ACF1,Aberrant Crypt Foci in Rat Colons,22,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,ais,Australian athletes data set,202,13,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,allbacks,Measurements on a Selection of Books,15,4,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,anesthetic,Anesthetic Effectiveness,30,4,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,ant111b,"Averages by block of corn yields, for treatment 111 only",32,9,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,antigua,Averages by block of yields for the Antigua Corn data,288,7,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,appletaste,Tasting experiment that compared four apple varieties,60,3,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,aulatlong,Latitudes and longitudes for ten Australian cities,10,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,austpop,Population figures for Australian States and Territories,9,10,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,biomass,Biomass Data,153,8,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,bomregions,"Australian and Related Historical Annual Climate Data, by region",109,22,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,bomregions2011,"Australian and Related Historical Annual Climate Data, by region",112,22,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,bomregions2012,"Australian and Related Historical Annual Climate Data, by region",113,22,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,bomsoi,Southern Oscillation Index Data,106,21,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,bomsoi2001,Southern Oscillation Index Data,102,15,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,bostonc,Boston Housing Data - Corrected,517,1,FALSE,FALSE,FALSE,FALSE,TRUE
+DAAG,carprice,US Car Price Data,48,9,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,Cars93.summary,A Summary of the Cars93 Data set,6,4,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,cerealsugar,Percentage of Sugar in Breakfast Cereal,100,1,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,cfseal,Cape Fur Seal Data,30,11,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,cities,Populations of Major Canadian Cities (1992-96),25,7,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,codling,"Dose-mortality data, for fumigation of codling moth with methyl bromide",99,10,FALSE,TRUE,TRUE,TRUE,TRUE
+DAAG,cottonworkers,Occupation and wage profiles of British cotton workers,14,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,cps1,Labour Training Evaluation Data,15992,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,cps2,Labour Training Evaluation Data,2369,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,cps3,Labour Training Evaluation Data,429,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,cricketer,Lifespans of UK 1st class cricketers born 1840-1960,5960,8,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,cuckoohosts,Comparison of cuckoo eggs with host eggs,10,12,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,cuckoos,Cuckoo Eggs Data,120,4,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,dengue,"Dengue prevalence, by administrative region",2000,13,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,dewpoint,Dewpoint Data,72,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,droughts,Periods Between Rain Events,2042,2,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,edcCO2,EPICA Dome C Ice Core 800KYr Carbon Dioxide Data,1096,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,edcT,EPICA Dome C Ice Core 800KYr Temperature Estimates,5788,5,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,elastic1,Elastic Band Data Replicated,7,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,elastic2,Elastic Band Data Replicated Again,9,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,elasticband,Elastic Band Data,7,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,fossilfuel,Fossil Fuel Data,5,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,fossum,Female Possum Measurements,43,14,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,frogs,Frogs Data,212,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,frostedflakes,Frosted Flakes data,100,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,fruitohms,Electrical Resistance of Kiwi Fruit,128,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,gaba,Effect of pentazocine on post-operative pain (average VAS scores),9,7,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,geophones,Seismic Timing Data,56,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,greatLakes,Yearly averages of Great Lake heights: 1918 - 2009,92,4,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,grog,Alcohol consumption in Australia and New Zealand,18,5,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,head.injury,Minor Head Injury (Simulated) Data,3121,11,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,headInjury,Minor Head Injury (Simulated) Data,3121,11,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,hills,Scottish Hill Races Data,35,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,hills2000,Scottish Hill Races Data - 2000,56,4,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,hotspots,Hawaian island chain hotspot Potassium-Argon ages,35,6,FALSE,FALSE,TRUE,TRUE,FALSE
+DAAG,hotspots2006,Hawaian island chain hotspot Argon-Argon ages,10,6,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,houseprices,Aranda House Prices,15,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,humanpower1,"Oxygen uptake versus mechanical power, for humans",28,3,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,humanpower2,"Oxygen uptake versus mechanical power, for humans",26,3,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,hurricNamed,Named US Atlantic Hurricanes,94,12,FALSE,TRUE,TRUE,TRUE,TRUE
+DAAG,intersalt,Blood pressure versus Salt; inter-population data,52,4,FALSE,FALSE,TRUE,TRUE,FALSE
+DAAG,ironslag,Iron Content Measurements,53,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,jobs,Canadian Labour Force Summary Data (1995-96),24,7,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,kiwishade,Kiwi Shading Data,48,4,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,leafshape,Full Leaf Shape Data Set,286,9,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,leafshape17,Subset of Leaf Shape Data Set,61,8,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,leaftemp,Leaf and Air Temperature Data,62,4,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,leaftemp.all,Full Leaf and Air Temperature Data Set,62,9,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,litters,Mouse Litters,20,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,Lottario,Ontario Lottery Data,39,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,lung,Cape Fur Seal Lung Measurements,30,1,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,Manitoba.lakes,The Nine Largest Lakes in Manitoba,9,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,measles,Deaths in London from measles,311,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,medExpenses,Family Medical Expenses,33,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,mifem,Mortality Outcomes for Females Suffering Myocardial Infarction,1295,10,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,mignonette,Darwin's Wild Mignonette Data,24,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,milk,Milk Sweetness Study,17,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,modelcars,Model Car Data,12,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,monica,WHO Monica Data,6367,12,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,moths,Moths Data,41,4,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,nassCDS,Airbag and other influences on accident fatalities,26217,15,FALSE,TRUE,TRUE,TRUE,TRUE
+DAAG,nasshead,Documentation of names of columns in nass9702cor,56,3,FALSE,FALSE,FALSE,TRUE,FALSE
+DAAG,nihills,Record times for Northern Ireland mountain running events,23,4,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,nsw74demo,Labour Training Evaluation Data,445,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,nsw74psid1,Labour Training Evaluation Data,2675,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,nsw74psid3,Labour Training Evaluation Data,313,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,nsw74psidA,A Subset of the nsw74psid1 Data Set,252,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,nswdemo,Labour Training Evaluation Data,722,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,nswpsid1,Labour Training Evaluation Data,2787,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,oddbooks,Measurements on 12 books,12,4,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,orings,Challenger O-rings Data,23,4,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,ozone,Ozone Data,45,11,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,pair65,Heated Elastic Bands,9,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,possum,Possum Measurements,104,14,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,possumsites,Possum Sites,7,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,poxetc,"Deaths from various causes, in London from 1629 till 1881, with gaps",253,5,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,primates,Primate Body and Brain Weights,5,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,progression,"Progression of Record times for track races, 1912 - 2008",227,4,FALSE,FALSE,TRUE,TRUE,FALSE
+DAAG,psid1,Labour Training Evaluation Data,2490,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,psid2,Labour Training Evaluation Data,253,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,psid3,Labour Training Evaluation Data,128,10,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,races2000,Scottish Hill Races Data - 2000,77,5,FALSE,FALSE,TRUE,TRUE,FALSE
+DAAG,rainforest,Rainforest Data,65,7,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,rareplants,Rare and Endangered Plant Species,4,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,rice,Genetically Modified and Wild Type Rice Data,72,7,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,rockArt,Pacific Rock Art features,103,641,FALSE,TRUE,TRUE,TRUE,FALSE
+DAAG,roller,Lawn Roller Data,10,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,science,School Science Survey Data,1385,7,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,seedrates,Barley Seeding Rate Data,5,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,socsupport,Social Support Data,95,20,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,softbacks,Measurements on a Selection of Paperback Books,8,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,sorption,sorption data set,192,14,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,SP500close,Closing Numbers for S and P 500 Index,2780,1,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,SP500W90,Closing Numbers for S and P 500 Index - First 100 Days of 1990,100,2,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,spam7,Spam E-mail Data,4601,7,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,stVincent,Averages by block of yields for the St. Vincent Corn data,324,8,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,sugar,Sugar Data,12,2,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,tinting,Car Window Tinting Experiment Data,182,9,FALSE,TRUE,TRUE,FALSE,TRUE
+DAAG,tomato,Root weights of tomato plants exposed to 4 different treatments,24,2,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,toycars,Toy Cars Data,27,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,vince111b,"Averages by block of corn yields, for treatment 111 only",36,8,FALSE,FALSE,TRUE,FALSE,TRUE
+DAAG,vlt,Video Lottery Terminal Data,345,5,FALSE,TRUE,TRUE,FALSE,FALSE
+DAAG,wages1833,Wages of Lancashire Cotton Factory Workers in 1833,51,5,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,whoops,"Deaths from whooping cough, in London",142,3,FALSE,FALSE,TRUE,FALSE,FALSE
+DAAG,worldRecords,"Record times for track and road races, at August 9th 2006",40,5,FALSE,TRUE,TRUE,TRUE,TRUE
+datasets,ability.cov,Ability and Intelligence Tests,6,8,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,airmiles,"Passenger Miles on Commercial US Airlines, 1937-1960",24,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,AirPassengers,Monthly Airline Passenger Numbers 1949-1960,144,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,airquality,New York Air Quality Measurements,153,6,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,anscombe,Anscombe's Quartet of 'Identical' Simple Linear Regressions,11,8,FALSE,TRUE,TRUE,FALSE,FALSE
+datasets,attenu,The Joyner-Boore Attenuation Data,182,5,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,attitude,The Chatterjee-Price Attitude Data,30,7,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,austres,Quarterly Time Series of the Number of Australian Residents,89,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,BJsales,Sales Data with Leading Indicator,150,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,BOD,Biochemical Oxygen Demand,6,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,cars,Speed and Stopping Distances of Cars,50,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,ChickWeight,Weight versus age of chicks on different diets,578,4,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,chickwts,Chicken Weights by Feed Type,71,2,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,co2,Mauna Loa Atmospheric CO2 Concentration,468,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,CO2,Carbon Dioxide Uptake in Grass Plants,84,5,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,crimtab,Student's 3000 Criminals Data,924,3,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,discoveries,Yearly Numbers of Important Discoveries,100,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,DNase,Elisa assay of DNase,176,3,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,esoph,"Smoking, Alcohol and (O)esophageal Cancer",88,5,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,euro,Conversion Rates of Euro Currencies,11,1,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,EuStockMarkets,"Daily Closing Prices of Major European Stock Indices, 1991-1998",1860,4,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,faithful,Old Faithful Geyser Data,272,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Formaldehyde,Determination of Formaldehyde,6,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,freeny,Freeny's Revenue Data,39,5,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,HairEyeColor,Hair and Eye Color of Statistics Students,32,4,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,Harman23.cor,Harman Example 2.3,8,10,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Harman74.cor,Harman Example 7.4,24,26,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Indometh,Pharmacokinetics of Indomethacin,66,3,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,infert,Infertility after Spontaneous and Induced Abortion,248,8,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,InsectSprays,Effectiveness of Insect Sprays,72,2,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,iris,Edgar Anderson's Iris Data,150,5,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,iris3,Edgar Anderson's Iris Data,50,12,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,islands,Areas of the World's Major Landmasses,48,1,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,JohnsonJohnson,Quarterly Earnings per Johnson & Johnson Share,84,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,LakeHuron,Level of Lake Huron 1875-1972,98,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,lh,Luteinizing Hormone in Blood Samples,48,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,LifeCycleSavings,Intercountry Life-Cycle Savings Data,50,5,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Loblolly,Growth of Loblolly pine trees,84,3,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,longley,Longley's Economic Regression Data,16,7,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,lynx,Annual Canadian Lynx trappings 1821-1934,114,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,morley,Michelson Speed of Light Data,100,3,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,mtcars,Motor Trend Car Road Tests,32,11,FALSE,TRUE,TRUE,FALSE,FALSE
+datasets,nhtemp,Average Yearly Temperatures in New Haven,60,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Nile,Flow of the River Nile,100,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,nottem,"Average Monthly Temperatures at Nottingham, 1920-1939",240,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,npk,"Classical N, P, K Factorial Experiment",24,5,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,occupationalStatus,Occupational Status of Fathers and their Sons,64,3,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,Orange,Growth of Orange Trees,35,3,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,OrchardSprays,Potency of Orchard Sprays,64,4,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,PlantGrowth,Results from an Experiment on Plant Growth,30,2,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,precip,Annual Precipitation in US Cities,70,1,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,presidents,Quarterly Approval Ratings of US Presidents,120,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,pressure,Vapor Pressure of Mercury as a Function of Temperature,19,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Puromycin,Reaction Velocity of an Enzymatic Reaction,23,3,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,quakes,Locations of Earthquakes off Fiji,1000,5,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,randu,Random Numbers from Congruential Generator RANDU,400,3,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,rivers,Lengths of Major North American Rivers,141,1,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,rock,Measurements on Petroleum Rock Samples,48,4,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Seatbelts,Road Casualties in Great Britain 1969-84,192,8,FALSE,TRUE,TRUE,FALSE,FALSE
+datasets,sleep,Student's Sleep Data,20,3,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,stackloss,Brownlee's Stack Loss Plant Data,21,4,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,sunspot.month,"Monthly Sunspot Data, from 1749 to ""Present""",3177,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,sunspot.year,"Yearly Sunspot Data, 1700-1988",289,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,sunspots,"Monthly Sunspot Numbers, 1749-1983",2820,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,swiss,Swiss Fertility and Socioeconomic Indicators (1888) Data,47,6,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,Theoph,Pharmacokinetics of Theophylline,132,5,FALSE,FALSE,TRUE,FALSE,TRUE
+datasets,Titanic,Survival of passengers on the Titanic,32,5,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,ToothGrowth,The Effect of Vitamin C on Tooth Growth in Guinea Pigs,60,3,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,treering,"Yearly Treering Data, -6000-1979",7980,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,trees,"Girth, Height and Volume for Black Cherry Trees",31,3,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,UCBAdmissions,Student Admissions at UC Berkeley,24,4,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,UKDriverDeaths,Road Casualties in Great Britain 1969-84,192,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,UKgas,UK Quarterly Gas Consumption,108,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,USAccDeaths,Accidental Deaths in the US 1973-1978,72,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,USArrests,Violent Crime Rates by US State,50,4,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,USJudgeRatings,Lawyers' Ratings of State Judges in the US Superior Court,43,12,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,USPersonalExpenditure,Personal Expenditure Data,5,5,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,uspop,Populations Recorded by the US Census,19,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,VADeaths,Death Rates in Virginia (1940),5,4,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,volcano,Topographic Information on Auckland's Maunga Whau Volcano,87,61,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,warpbreaks,The Number of Breaks in Yarn during Weaving,54,3,FALSE,TRUE,TRUE,FALSE,TRUE
+datasets,women,Average Heights and Weights for American Women,15,2,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,WorldPhones,The World's Telephones,7,7,FALSE,FALSE,TRUE,FALSE,FALSE
+datasets,WWWusage,Internet Usage per Minute,100,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,acidiq,Acifluorfen and diquat tested on Lemna minor.,180,3,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,algae,Volume of algae as function of increasing concentrations of a herbicide,14,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,auxins,Effect of technical grade and commercially formulated auxin herbicides,150,5,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,chickweed,Germination of common chickweed (_Stellaria media_),35,3,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,chickweed0,Germination of common chickweed (_Stellaria media_),34,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,daphnids,Daphnia test,16,4,FALSE,TRUE,TRUE,FALSE,TRUE
+drc,decontaminants,Performance of decontaminants used in the culturing of a micro-organism,128,3,FALSE,TRUE,TRUE,FALSE,TRUE
+drc,deguelin,Deguelin applied to chrysanthemum aphis,6,4,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,earthworms,Earthworm toxicity test,35,3,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,etmotc,Effect of erythromycin on mixed sewage microorganisms,57,4,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,finney71,Example from Finney (1971),6,3,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,G.aparine,Herbicide applied to Galium aparine,240,3,FALSE,TRUE,TRUE,FALSE,TRUE
+drc,germination,Germination of three crops,192,5,FALSE,FALSE,TRUE,FALSE,TRUE
+drc,glymet,Glyphosate and metsulfuron-methyl tested on algae.,113,3,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,H.virescens,Mortality of tobacco budworms,12,4,FALSE,TRUE,TRUE,FALSE,TRUE
+drc,heartrate,Heart rate baroreflexes for rabbits,18,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,leaflength,Leaf length of barley,42,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,lepidium,Dose-response profile of degradation of agrochemical using lepidium,42,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,lettuce,Hormesis in lettuce plants,14,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,M.bahia,Effect of an effluent on the growth of mysid shrimp,40,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,mecter,Mechlorprop and terbythylazine tested on Lemna minor,102,3,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,metals,Data from heavy metal mixture experiments,543,3,FALSE,FALSE,TRUE,FALSE,TRUE
+drc,methionine,Weight gain for different methionine sources,9,3,FALSE,FALSE,TRUE,FALSE,TRUE
+drc,nasturtium,Dose-response profile of degradation of agrochemical using nasturtium,42,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,O.mykiss,Test data from a 21 day fish test,70,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,P.promelas,Effect of sodium pentachlorophenate on growth of fathead minnow,24,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,RScompetition,Competition between two biotypes,49,3,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,ryegrass,Effect of ferulic acid on growth of ryegrass,24,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,S.alba,Potency of two herbicides,68,3,FALSE,TRUE,TRUE,FALSE,TRUE
+drc,S.capricornutum,Effect of cadmium on growth of green alga,18,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,secalonic,Root length measurements,7,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,selenium,Data from toxicology experiments with selenium,25,4,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,spinach,Inhibition of photosynthesis,105,4,FALSE,TRUE,TRUE,FALSE,TRUE
+drc,terbuthylazin,The effect of terbuthylazin on growth rate,30,2,FALSE,FALSE,TRUE,FALSE,FALSE
+drc,vinclozolin,Vinclozolin from AR in vitro assay,53,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Accident,Ship Accidents,40,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Airline,Cost for U.S. Airlines,90,6,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Airq,Air Quality for Californian Metropolitan Areas,30,6,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,bankingCrises,Countries in Banking Crises,211,71,FALSE,TRUE,TRUE,FALSE,FALSE
+Ecdat,Benefits,Unemployment of Blue Collar Workers,4877,18,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Bids,Bids Received By U.S. Firms,126,12,FALSE,TRUE,TRUE,FALSE,FALSE
+Ecdat,breaches,Cyber Security Breaches,1055,13,FALSE,FALSE,TRUE,TRUE,TRUE
+Ecdat,BudgetFood,Budget Share of Food for Spanish Households,23972,6,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,BudgetItaly,Budget Shares for Italian Households,1729,11,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,BudgetUK,Budget Shares of British Households,1519,10,FALSE,TRUE,TRUE,FALSE,FALSE
+Ecdat,Bwages,Wages in Belgium,1472,4,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Capm,Stock Market Data,516,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Car,Stated Preferences for Car Choice,4654,70,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Caschool,The California Test Score Data Set,420,17,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Catsup,Choice of Brand for Catsup,2798,14,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Cigar,Cigarette Consumption,1380,9,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Cigarette,The Cigarette Consumption Panel Data Set,528,9,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Clothing,Sales Data of Men's Fashion Stores,400,13,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Computers,Prices of Personal Computers,6259,10,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Consumption,Quarterly Data on Consumption and Expenditure,200,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,CPSch3,Earnings from the Current Population Survey,11130,3,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Cracker,Choice of Brand for Crakers,3292,14,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,CRANpackages,Growth of CRAN,29,4,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Crime,Crime in North Carolina,630,24,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,CRSPday,Daily Returns from the CRSP Database,2528,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,CRSPmon,Monthly Returns from the CRSP Database,360,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Diamond,Pricing the C's of Diamond Stones,308,5,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,DM,DM Dollar Exchange Rate,778,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Doctor,Number of Doctor Visits,485,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,DoctorAUS,Doctor Visits in Australia,5190,15,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,DoctorContacts,Contacts With Medical Doctor,20186,15,TRUE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Earnings,Earnings for Three Age Groups,4266,2,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Electricity,Cost Function for Electricity Producers,158,8,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Fair,Extramarital Affairs Data,601,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Fatality,Drunk Driving Laws and Traffic Deaths,336,10,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Fishing,Choice of Fishing Mode,1182,12,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Forward,Exchange Rates of US Dollar Against Other Currencies,276,9,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,FriendFoe,Data from the Television Game Show Friend Or Foe ?,227,13,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Garch,Daily Observations on Exchange Rates of the US Dollar Against Other Currencies,1867,8,FALSE,FALSE,TRUE,TRUE,FALSE
+Ecdat,Gasoline,Gasoline Consumption,342,6,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Griliches,Wage Datas,758,20,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Grunfeld,Grunfeld Investment Data,200,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,HC,Heating and Cooling System Choice in Newly Built Houses in California,250,18,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Hdma,The Boston HMDA Data Set,2381,13,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Heating,Heating System Choice in California Houses,900,21,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Hedonic,Hedonic Prices of Census Tracts in Boston,506,15,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,HHSCyberSecurityBreaches,Cybersecurity breaches reported to the US Department of Health and Human Services,1151,9,TRUE,TRUE,TRUE,TRUE,TRUE
+Ecdat,HI,Health Insurance and Hours Worked By Wives,22272,13,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Hmda,The Boston HMDA Data Set,2381,13,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Housing,Sales Prices of Houses in the City of Windsor,546,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Hstarts,Housing Starts,168,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Icecream,Ice Cream Consumption,30,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,incidents.byCountryYr,Global Terrorism Database yearly summaries,9270,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,incomeInequality,Income Inequality in the US,66,22,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,IncomeUK,Seasonally Unadjusted Quarterly Data on Disposable Income and Expenditure,58,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Irates,Monthly Interest Rates,531,10,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Journals,Economic Journals Dat Set,180,10,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Kakadu,Willingness to Pay for the Preservation of the Kakadu National Park,1827,22,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Ketchup,Choice of Brand for Ketchup,4956,7,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Klein,Klein's Model I,22,9,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,LaborSupply,Wages and Hours Worked,5320,7,FALSE,TRUE,TRUE,FALSE,FALSE
+Ecdat,Labour,Belgian Firms,569,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Longley,The Longley Data,16,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,LT,Dollar Sterling Exchange Rate,200,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Macrodat,Macroeconomic Time Series for the United States,168,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Males,Wages and Education of Young Males,4360,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,ManufCost,Manufacturing Costs,25,9,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Mathlevel,Level of Calculus Attained for Students Taking Advanced Micro-economics,609,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,MCAS,The Massachusetts Test Score Data Set,220,17,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,MedExp,Structure of Demand for Medical Care,5574,15,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Metal,Production for SIC 33,27,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Mishkin,Inflation and Interest Rates,491,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Mode,Mode Choice,453,9,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,ModeChoice,Data to Study Travel Mode Choice,840,7,FALSE,TRUE,TRUE,FALSE,FALSE
+Ecdat,Mofa,"International Expansion of U.S. Mofa's (majority-owned Foreign Affiliates in Fire (finance, Insurance and Real Estate)",50,5,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Money,"Money, GDP and Interest Rate in Canada",128,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,MoneyUS,Macroeconomic Series for the United States,164,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Mpyr,"Money, National Product and Interest Rate",90,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Mroz,Labor Supply Data,753,18,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,MunExp,Municipal Expenditure Data,2385,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,MW,Growth of Disposable Income and Treasury Bill Rate,50,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,NaturalPark,Willingness to Pay for the Preservation of the Alentejo Natural Park,312,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Nerlove,"Cost Function for Electricity Producers, 1955",159,8,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,nkill.byCountryYr,Global Terrorism Database yearly summaries,206,45,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,nonEnglishNames,Names with Character Set Problems,11,2,FALSE,FALSE,FALSE,FALSE,TRUE
+Ecdat,OFP,Visits to Physician Office,4406,19,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Oil,Oil Investment,53,11,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Orange,The Orange Juice Data Set,642,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Participation,Labor Force Participation,872,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,PatentsHGH,Dynamic Relation Between Patents and R&D,1730,18,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,PatentsRD,"Patents, R&D and Technological Spillovers for a Panel of Firms",1629,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,PE,Price and Earnings Index,132,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,politicalKnowledge,Political knowledge in the US and Europe,4,12,FALSE,FALSE,TRUE,TRUE,FALSE
+Ecdat,Pound,Pound-dollar Exchange Rate,778,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,PPP,Exchange Rates and Price Indices for France and Italy,186,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Pricing,Returns of Size-based Portfolios,418,12,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Produc,Us States Production,816,10,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,PSID,Panel Survey of Income Dynamics,4856,8,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,RetSchool,Return to Schooling,5225,17,FALSE,TRUE,TRUE,FALSE,FALSE
+Ecdat,Schooling,Wages and Schooling,3010,28,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Solow,Solow's Technological Change Data,41,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Somerville,Visits to Lake Somerville,659,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,SP500,Returns on Standard & Poor's 500 Index,2783,1,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Star,Effects on Learning of Small Class Sizes,5748,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Strike,Strike Duration Data,62,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,StrikeDur,Strikes Duration,566,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,StrikeNb,Number of Strikes in Us Manufacturing,108,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,SumHes,The Penn Table,3250,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Tbrate,"Interest Rate, GDP and Inflation",188,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,terrorism,Global Terrorism Database yearly summaries,46,25,FALSE,FALSE,TRUE,TRUE,TRUE
+Ecdat,Tobacco,Households Tobacco Budget Share,2724,9,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Train,Stated Preferences for Train Traveling,2929,11,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,TranspEq,Statewide Data on Transportation Equipment Manufacturing,25,5,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,Treatment,Evaluating Treatment Effect of Training on Earnings,2675,10,TRUE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Tuna,Choice of Brand for Tuna,13705,8,FALSE,FALSE,TRUE,FALSE,TRUE
+Ecdat,UnempDur,Unemployment Duration,3343,11,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Unemployment,Unemployment Duration,452,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,University,Provision of University Teaching and Research,62,17,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,USclassifiedDocuments,Official Secrecy of the United States Government,29,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,USFinanceIndustry,US Finance Industry Profits,84,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,USGDPpresidents,US GDP per capita with presidents and wars,259,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,USstateAbbreviations,Standard abbreviations for states of the United States,76,10,FALSE,FALSE,FALSE,TRUE,FALSE
+Ecdat,UStaxWords,Number of Words in US Tax Law,7,10,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,VietNamH,Medical Expenses in Viet-nam (household Level),5999,11,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,VietNamI,Medical Expenses in Viet-nam (individual Level),27765,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Wages,Panel Datas of Individual Wages,4165,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Wages1,"Wages, Experience and Schooling",3294,4,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Workinghours,Wife Working Hours,3382,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Ecdat,Yen,Yen-dollar Exchange Rate,778,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Ecdat,Yogurt,Choice of Brand for Yogurts,2412,10,FALSE,TRUE,TRUE,FALSE,TRUE
+evir,bmw,Daily Log Returns on BMW Share Price,6146,1,FALSE,FALSE,TRUE,FALSE,FALSE
+evir,danish,Danish Fire Insurance Claims,2167,1,FALSE,FALSE,TRUE,FALSE,FALSE
+evir,nidd.annual,The River Nidd Data,35,1,FALSE,FALSE,TRUE,FALSE,FALSE
+evir,nidd.thresh,The River Nidd Data,154,1,FALSE,FALSE,TRUE,FALSE,FALSE
+evir,siemens,Daily Log Returns on Siemens Share Price,6146,1,FALSE,FALSE,TRUE,FALSE,FALSE
+evir,sp.raw,SP Data to June 1993,8415,1,FALSE,FALSE,TRUE,FALSE,FALSE
+evir,spto87,SP Return Data to October 1987,6985,1,FALSE,FALSE,TRUE,FALSE,FALSE
+forecast,gas,Australian monthly gas production,476,2,FALSE,FALSE,TRUE,FALSE,FALSE
+forecast,gold,Daily morning gold prices,1108,2,FALSE,FALSE,TRUE,FALSE,FALSE
+forecast,taylor,Half-hourly electricity demand,4032,1,FALSE,FALSE,TRUE,FALSE,FALSE
+forecast,wineind,Australian total wine sales,176,2,FALSE,FALSE,TRUE,FALSE,FALSE
+forecast,woolyrnq,Quarterly production of woollen yarn in Australia,119,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,a10,Monthly anti-diabetic drug sales in Australia from 1991 to 2008.,204,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,arrivals,International Arrivals to Australia,127,4,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,ausair,Air Transport Passengers Australia,47,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,ausbeer,Quarterly Australian Beer production,218,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,auscafe,Monthly expenditure on eating out in Australia,426,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,austa,International visitors to Australia,36,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,austourists,International Tourists to Australia: Total visitor nights.,68,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,calls,Call volume for a large North American bank,27716,1,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,debitcards,Retail debit card usage in Iceland.,164,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,departures,Total monthly departures from Australia,498,5,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,elecdaily,"Half-hourly and daily electricity demand for Victoria, Australia, in 2014",365,3,FALSE,TRUE,TRUE,FALSE,FALSE
+fpp2,elecdemand,"Half-hourly and daily electricity demand for Victoria, Australia, in 2014",17520,3,FALSE,TRUE,TRUE,FALSE,FALSE
+fpp2,elecequip,Electrical equipment manufactured in the Euro area.,195,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,elecsales,Electricity sales to residential customers in South Australia.,20,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,euretail,Quarterly retail trade: Euro area.,64,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,gasoline,US finished motor gasoline product supplied.,1355,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,goog,Daily closing stock prices of Google Inc,1000,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,goog200,Daily closing stock prices of Google Inc,200,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,guinearice,Rice production (Guinea),42,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,h02,Monthly corticosteroid drug sales in Australia from July 1991 to June 2008.,204,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,hyndsight,Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.,365,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,insurance,Insurance quotations and advertising expenditure.,40,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,livestock,"Livestock (sheep) in Asia, 1961-2007.",47,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,marathon,Boston marathon winning times since 1897,120,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,maxtemp,"Maximum annual temperatures at Moorabbin Airport, Melbourne",46,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,melsyd,"Total weekly air passenger numbers on Ansett airline flights between Melbourne and Sydney, 1987-1992.",283,3,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,mens400,Winning times in Olympic men's 400m track final. 1896-2016.,31,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,oil,Annual oil production in Saudi Arabia,49,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,prison,prison,48,32,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,prisonLF,prison,1536,5,FALSE,TRUE,TRUE,FALSE,TRUE
+fpp2,qauselec,Quarterly Australian Electricity production,218,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,qcement,Quarterly Australian Portland Cement production,233,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,qgas,Quarterly Australian Gas Production,218,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,sunspotarea,Annual average sunspot area (1875-2015),141,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,uschange,Growth rates of personal consumption and personal income in the USA.,187,5,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,usmelec,Electricity monthly total net generation. January 1973 - June 2013.,486,2,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,visnights,Quarterly visitor nights for various regions of Australia.,76,20,FALSE,FALSE,TRUE,FALSE,FALSE
+fpp2,wmurders,"Annual female murder rate (per 100,000 standard population) in the USA. 1950-2004.",55,2,FALSE,FALSE,TRUE,FALSE,FALSE
+gamclass,airAccs,Aircraft Crash data,5666,7,FALSE,FALSE,TRUE,FALSE,TRUE
+gamclass,bronchitis,Chronic bronchitis in a sample of men in Cardiff,212,4,FALSE,TRUE,TRUE,FALSE,TRUE
+gamclass,cvalues,Historical speed of light measurements,9,3,FALSE,FALSE,TRUE,FALSE,FALSE
+gamclass,FARS,"US fatal road accident data for automobiles, 1998 to 2010",151158,17,FALSE,FALSE,TRUE,TRUE,TRUE
+gamclass,fars2007,"US fatal road accident data, 2007 and 2008",72548,24,FALSE,TRUE,TRUE,FALSE,FALSE
+gamclass,fars2008,"US fatal road accident data, 2007 and 2008",64881,24,FALSE,TRUE,TRUE,FALSE,FALSE
+gamclass,FARSmiss,Summary information on records omitted from the 'FARS' dataset,51,91,FALSE,FALSE,TRUE,FALSE,FALSE
+gamclass,german,German credit scoring data,1000,21,FALSE,TRUE,TRUE,FALSE,TRUE
+gamclass,loti,Global temperature anomalies,131,19,FALSE,FALSE,TRUE,FALSE,FALSE
+gap,aldh2,ALDH2 markers and Alcoholism,263,18,FALSE,TRUE,TRUE,FALSE,TRUE
+gap,apoeapoc,APOE/APOC1 markers and Alzheimer's,353,8,FALSE,TRUE,TRUE,FALSE,FALSE
+gap,cf,Cystic fibrosis data,186,24,FALSE,TRUE,TRUE,FALSE,FALSE
+gap,crohn,Crohn's disease data,387,212,FALSE,TRUE,TRUE,FALSE,TRUE
+gap,fa,Friedreich Ataxia data,127,13,FALSE,TRUE,TRUE,FALSE,FALSE
+gap,fsnps,A case-control data involving four SNPs with missing genotype,432,10,FALSE,FALSE,TRUE,FALSE,TRUE
+gap,hla,The HLA data,271,8,FALSE,TRUE,TRUE,FALSE,TRUE
+gap,l51,An example pedigree data,51,6,FALSE,TRUE,TRUE,FALSE,FALSE
+gap,lukas,An example pedigree,85,4,FALSE,TRUE,TRUE,TRUE,FALSE
+gap,mao,A study of Parkinson's disease and MAO gene,340,19,FALSE,TRUE,TRUE,TRUE,FALSE
+gap,meyer,A pedigree data on 282 animals deriving from two generations,306,5,FALSE,TRUE,TRUE,FALSE,FALSE
+gap,mfblong,Example data for ACEnucfam,3000,10,FALSE,TRUE,TRUE,FALSE,FALSE
+gap,nep499,A study of Alzheimer's disease with eight SNPs and APOE,499,23,FALSE,TRUE,TRUE,FALSE,FALSE
+gap,PD,"A study of Parkinson's disease and APOE, LRRK2, SNCA makers",825,22,FALSE,TRUE,TRUE,TRUE,FALSE
+geepack,dietox,Growth curves of pigs in a 3x3 factorial experiment,861,7,FALSE,FALSE,TRUE,FALSE,FALSE
+geepack,koch,Ordinal Data from Koch,288,4,FALSE,TRUE,TRUE,FALSE,FALSE
+geepack,ohio,Ohio Children Wheeze Status,2148,4,FALSE,TRUE,TRUE,FALSE,FALSE
+geepack,respdis,Clustered Ordinal Respiratory Disorder,111,5,FALSE,TRUE,TRUE,FALSE,FALSE
+geepack,respiratory,Data from a clinical trial comparing two treatments for a respiratory illness,444,8,FALSE,TRUE,TRUE,FALSE,TRUE
+geepack,seizure,Epiliptic Seizures,59,7,FALSE,TRUE,TRUE,FALSE,FALSE
+geepack,sitka89,Growth of Sitka Spruce Trees,632,4,FALSE,TRUE,TRUE,FALSE,TRUE
+geepack,spruce,Log-size of 79 Sitka spruce trees,1027,6,FALSE,TRUE,TRUE,FALSE,TRUE
+ggplot2,diamonds,"Prices of 50,000 round cut diamonds",53940,10,FALSE,FALSE,TRUE,FALSE,TRUE
+ggplot2,economics,US economic time series,574,6,FALSE,FALSE,TRUE,FALSE,FALSE
+ggplot2,economics_long,US economic time series,2870,4,FALSE,FALSE,TRUE,FALSE,TRUE
+ggplot2,faithfuld,2d density estimate of Old Faithful data,5625,3,FALSE,FALSE,TRUE,FALSE,FALSE
+ggplot2,luv_colours,'colors()' in Luv space,657,4,FALSE,FALSE,TRUE,TRUE,FALSE
+ggplot2,midwest,Midwest demographics,437,28,FALSE,TRUE,TRUE,TRUE,FALSE
+ggplot2,mpg,Fuel economy data from 1999 and 2008 for 38 popular models of car,234,11,FALSE,TRUE,TRUE,TRUE,FALSE
+ggplot2,msleep,An updated and expanded version of the mammals sleep dataset,83,11,FALSE,FALSE,TRUE,TRUE,FALSE
+ggplot2,presidential,Terms of 11 presidents from Eisenhower to Obama,11,4,FALSE,TRUE,FALSE,TRUE,FALSE
+ggplot2,seals,Vector field of seal movements,1155,4,FALSE,FALSE,TRUE,FALSE,FALSE
+ggplot2,txhousing,Housing sales in TX,8602,9,FALSE,FALSE,TRUE,TRUE,FALSE
+HistData,Arbuthnot,Arbuthnot's data on male and female birth ratios in London from 1629-1710.,82,7,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Armada,La Felicisima Armada,10,11,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,Bowley,"Bowley's data on values of British and Irish trade, 1855-1899",45,2,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Cavendish,Cavendish's Determinations of the Density of the Earth,29,3,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,ChestSizes,Chest measurements of 5738 Scottish Militiamen,16,2,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Cholera,"William Farr's Data on Cholera in London, 1849",38,15,FALSE,FALSE,TRUE,TRUE,TRUE
+HistData,CushnyPeebles,Cushny-Peebles Data: Soporific Effects of Scopolamine Derivatives,11,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,CushnyPeeblesN,Cushny-Peebles Data: Soporific Effects of Scopolamine Derivatives,11,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Dactyl,Edgeworth's counts of dactyls in Virgil's Aeneid,60,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,DrinksWages,Elderton and Pearson's (1910) data on drinking and wages,70,6,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,Fingerprints,Waite's data on Patterns in Fingerprints,36,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,Galton,Galton's data on the heights of parents and their children,928,2,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,GaltonFamilies,"Galton's data on the heights of parents and their children, by child",934,8,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,Guerry,"Data from A.-M. Guerry, ""Essay on the Moral Statistics of France""",86,23,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,HalleyLifeTable,Halley's Life Table,84,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Jevons,W. Stanley Jevons' data on numerical discrimination,50,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Langren.all,van Langren's Data on Longitude Distance between Toledo and Rome,61,4,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,Langren1644,van Langren's Data on Longitude Distance between Toledo and Rome,12,9,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,Macdonell,"Macdonell's Data on Height and Finger Length of Criminals, used by Gosset (1908)",924,3,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,MacdonellDF,"Macdonell's Data on Height and Finger Length of Criminals, used by Gosset (1908)",3000,2,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Michelson,Michelson's Determinations of the Velocity of Light,100,1,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,MichelsonSets,Michelson's Determinations of the Velocity of Light,20,5,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Minard.cities,Data from Minard's famous graphic map of Napoleon's march on Moscow,20,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,Minard.temp,Data from Minard's famous graphic map of Napoleon's march on Moscow,9,4,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,Minard.troops,Data from Minard's famous graphic map of Napoleon's march on Moscow,51,5,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,Nightingale,Florence Nightingale's data on deaths from various causes in the Crimean War,24,10,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,OldMaps,Latitudes and Longitudes of 39 Points in 11 Old Maps,468,6,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,PearsonLee,Pearson and Lee's data on the heights of parents and children classified by gender,746,6,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,PolioTrials,Polio Field Trials Data,8,6,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,Prostitutes,Parent-Duchatelet's time-series data on the number of prostitutes in Paris,516,5,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,Pyx,Trial of the Pyx,72,4,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,Quarrels,Statistics of Deadly Quarrels,779,84,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,Snow.dates,John Snow's Map and Data on the 1854 London Cholera Outbreak,44,3,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Snow.deaths,John Snow's Map and Data on the 1854 London Cholera Outbreak,578,3,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Snow.deaths2,John Snow's Map and Data on the 1854 London Cholera Outbreak,578,3,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Snow.pumps,John Snow's Map and Data on the 1854 London Cholera Outbreak,13,4,FALSE,FALSE,TRUE,TRUE,FALSE
+HistData,Snow.streets,John Snow's Map and Data on the 1854 London Cholera Outbreak,1241,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Virginis,John F. W. Herschel's Data on the Orbit of the Twin Stars gamma _Virginis_,18,6,FALSE,FALSE,TRUE,TRUE,FALSE
+HistData,Virginis.interp,John F. W. Herschel's Data on the Orbit of the Twin Stars gamma _Virginis_,14,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Wheat,Playfair's Data on Wages and the Price of Wheat,53,3,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,Wheat.monarchs,Playfair's Data on Wages and the Price of Wheat,12,4,FALSE,TRUE,TRUE,FALSE,TRUE
+HistData,Yeast,Student's (1906) Yeast Cell Counts,36,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HistData,YeastD.mat,Student's (1906) Yeast Cell Counts,20,20,FALSE,FALSE,TRUE,FALSE,FALSE
+HistData,ZeaMays,Darwin's Heights of Cross- and Self-fertilized Zea May Pairs,15,5,FALSE,FALSE,TRUE,FALSE,TRUE
+HSAUR,agefat,Total Body Composision Data,25,3,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,aspirin,Aspirin Data,7,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,BCG,BCG Vaccine Data,13,7,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,birthdeathrates,Birth and Death Rates Data,69,2,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,bladdercancer,Bladder Cancer Data,31,3,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,BtheB,Beat the Blues Data,100,8,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,clouds,Cloud Seeding Data,24,7,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,CYGOB1,CYG OB1 Star Cluster Data,47,2,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,epilepsy,Epilepsy Data,236,6,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,Forbes2000,The Forbes 2000 Ranking of the World's Biggest Companies (Year 2004),2000,8,FALSE,FALSE,TRUE,TRUE,TRUE
+HSAUR,foster,Foster Feeding Experiment,61,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HSAUR,GHQ,General Health Questionnaire,22,4,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,heptathlon,Olympic Heptathlon Seoul 1988,25,8,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,Lanza,Prevention of Gastointestinal Damages,198,3,FALSE,TRUE,FALSE,FALSE,TRUE
+HSAUR,mastectomy,Survival Times after Mastectomy of Breast Cancer Patients,44,3,TRUE,TRUE,TRUE,FALSE,TRUE
+HSAUR,meteo,Meteorological Measurements for 11 Years,11,6,FALSE,FALSE,TRUE,FALSE,TRUE
+HSAUR,orallesions,Oral Lesions in Rural India,24,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HSAUR,phosphate,Phosphate Level Data,33,9,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,pistonrings,Piston Rings Failures,12,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HSAUR,planets,Exoplanets Data,101,3,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,plasma,Blood Screening Data,32,3,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,polyps,Familial Andenomatous Polyposis,20,3,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,polyps3,Familial Andenomatous Polyposis,22,5,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,pottery,Romano-British Pottery Data,45,9,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,rearrests,Rearrests of Juvenile Felons,4,3,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,respiratory,Respiratory Illness Data,555,7,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,roomwidth,Students Estimates of Lecture Room Width,113,2,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,schizophrenia,Age of Onset of Schizophrenia Data,251,2,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,schizophrenia2,Schizophrenia Data,220,4,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,schooldays,Days not Spent at School,154,5,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,skulls,Egyptian Skulls,150,5,FALSE,FALSE,TRUE,FALSE,TRUE
+HSAUR,smoking,Nicotine Gum and Smoking Cessation,26,4,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,students,Student Risk Taking,35,3,FALSE,FALSE,TRUE,FALSE,TRUE
+HSAUR,suicides,Crowd Baiting Behaviour and Suicides,4,3,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,toothpaste,Toothpaste Data,9,7,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,voting,House of Representatives Voting Data,15,15,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,water,Mortality and Water Hardness,61,4,FALSE,TRUE,TRUE,TRUE,TRUE
+HSAUR,watervoles,Water Voles Data,14,14,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,waves,Electricity from Wave Power at Sea,18,2,FALSE,FALSE,TRUE,FALSE,FALSE
+HSAUR,weightgain,Gain in Weight of Rats,40,3,FALSE,TRUE,TRUE,FALSE,TRUE
+HSAUR,womensrole,Womens Role in Society,42,4,FALSE,TRUE,TRUE,FALSE,TRUE
+hwde,IndianIrish,"Observed genotype frequencies at MN and S loci, for 2 populations",18,4,FALSE,TRUE,TRUE,FALSE,TRUE
+hwde,mendelABC,"Mendel's F2 trifactorial data for seed shape (A: round or wrinkled), cotyledon color (B: albumen yellow or green), and seed coat color (C: grey-brown or white)",27,4,FALSE,FALSE,TRUE,TRUE,TRUE
+ISLR,Auto,Auto Data Set,392,9,FALSE,FALSE,TRUE,FALSE,TRUE
+ISLR,Caravan,The Insurance Company (TIC) Benchmark,5822,86,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,Carseats,Sales of Child Car Seats,400,11,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,College,U.S. News and World Report's College Data,777,18,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,Credit,Credit Card Balance Data,400,12,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,Default,Credit Card Default Data,10000,4,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,Hitters,Baseball Data,322,20,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,NCI60,NCI 60 Data,64,6831,FALSE,FALSE,TRUE,FALSE,TRUE
+ISLR,OJ,Orange Juice Data,1070,18,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,Portfolio,Portfolio Data,100,2,FALSE,FALSE,TRUE,FALSE,FALSE
+ISLR,Smarket,S&P Stock Market Data,1250,9,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,Wage,Mid-Atlantic Wage Data,3000,11,FALSE,TRUE,TRUE,FALSE,TRUE
+ISLR,Weekly,Weekly S&P Stock Market Data,1089,9,FALSE,TRUE,TRUE,FALSE,TRUE
+KMsurv,aids,data from Section 1.19,295,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,alloauto,data from Section 1.9,101,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,allograft,"data from Exercise 13.1, p418",34,4,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,azt,"data from Exercise 4.7, p122",45,4,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,baboon,"data from Exercise 5.8, p147",152,3,FALSE,TRUE,TRUE,FALSE,TRUE
+KMsurv,bcdeter,data from Section 1.18,95,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,bfeed,data from Section 1.14,927,10,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,bmt,data from Section 1.3,137,22,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,bnct,"data from Exercise 7.7, p223",30,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,btrial,data from Section 1.5,45,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,burn,data from Section 1.6,154,18,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,channing,data from Section 1.16,462,6,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,drug6mp,data from Section 1.2,21,5,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,drughiv,"data from Exercise 7.6, p222",34,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,hodg,data from Section 1.10,43,6,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,kidney,data from Section 1.4,119,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,kidrecurr,Data on 38 individuals using a kidney dialysis machine,38,10,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,kidtran,data from Section 1.7,863,6,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,larynx,data from Section 1.8,90,5,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,lung,"data from Exercise 4.4, p120",25,4,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,pneumon,data from Section 1.13,3470,15,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,psych,data from Section 1.15,26,4,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,rats,"data from Exercise 7.13, p225",150,4,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,std,data from Section 1.12,877,24,FALSE,TRUE,TRUE,FALSE,TRUE
+KMsurv,stddiag,"data from Exercise 5.6, p146",25,2,FALSE,FALSE,TRUE,FALSE,FALSE
+KMsurv,tongue,data from Section 1.11,80,3,FALSE,TRUE,TRUE,FALSE,FALSE
+KMsurv,twins,"data from Exercise 7.14, p225",24,4,FALSE,TRUE,TRUE,FALSE,FALSE
+lattice,barley,Yield data from a Minnesota barley trial,120,4,FALSE,TRUE,TRUE,FALSE,TRUE
+lattice,environmental,Atmospheric environmental conditions in New York City,111,4,FALSE,FALSE,TRUE,FALSE,FALSE
+lattice,ethanol,Engine exhaust fumes from burning ethanol,88,3,FALSE,FALSE,TRUE,FALSE,FALSE
+lattice,melanoma,Melanoma skin cancer incidence,37,2,FALSE,FALSE,TRUE,FALSE,FALSE
+lattice,singer,Heights of New York Choral Society singers,235,2,FALSE,FALSE,TRUE,FALSE,TRUE
+lattice,USMortality,Mortality Rates in US by Cause and Gender,40,5,FALSE,TRUE,TRUE,FALSE,TRUE
+lattice,USRegionalMortality,Mortality Rates in US by Cause and Gender,400,6,FALSE,TRUE,TRUE,FALSE,TRUE
+lme4,Arabidopsis,Arabidopsis clipping/fertilization data,625,8,FALSE,TRUE,TRUE,FALSE,TRUE
+lme4,cake,Breakage Angle of Chocolate Cakes,270,5,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,cbpp,Contagious bovine pleuropneumonia,56,4,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,Dyestuff,Yield of dyestuff by batch,30,2,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,Dyestuff2,Yield of dyestuff by batch,30,2,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,grouseticks,Data on red grouse ticks from Elston et al. 2001,403,7,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,InstEval,University Lecture/Instructor Evaluations by Students at ETH,73421,7,FALSE,TRUE,TRUE,FALSE,TRUE
+lme4,Pastes,Paste strength by batch and cask,60,4,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,Penicillin,Variation in penicillin testing,144,3,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,sleepstudy,Reaction times in a sleep deprivation study,180,3,FALSE,FALSE,TRUE,FALSE,TRUE
+lme4,VerbAgg,Verbal Aggression item responses,7584,9,FALSE,TRUE,TRUE,FALSE,TRUE
+lmec,UTIdata,Data set for Unstructured Treatment Interruption Study,373,5,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,abbey,Determinations of Nickel Content,31,1,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,accdeaths,Accidental Deaths in the US 1973-1978,72,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,Aids2,Australian AIDS Survival Data,2843,7,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,Animals,Brain and Body Weights for 28 Species,28,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,anorexia,Anorexia Data on Weight Change,72,3,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,bacteria,Presence of Bacteria after Drug Treatments,220,6,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,beav1,Body Temperature Series of Beaver 1,114,4,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,beav2,Body Temperature Series of Beaver 2,100,4,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,biopsy,Biopsy Data on Breast Cancer Patients,699,11,FALSE,TRUE,TRUE,TRUE,TRUE
+MASS,birthwt,Risk Factors Associated with Low Infant Birth Weight,189,10,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,Boston,Housing Values in Suburbs of Boston,506,14,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,cabbages,Data from a cabbage field trial,60,4,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,caith,Colours of Eyes and Hair of People in Caithness,4,5,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,Cars93,Data from 93 Cars on Sale in the USA in 1993,93,27,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,cats,Anatomical Data from Domestic Cats,144,3,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,cement,Heat Evolved by Setting Cements,13,5,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,chem,Copper in Wholemeal Flour,24,1,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,coop,Co-operative Trial in Analytical Chemistry,252,4,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,cpus,Performance of Computer CPUs,209,9,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,crabs,Morphological Measurements on Leptograpsus Crabs,200,8,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,Cushings,Diagnostic Tests on Patients with Cushing's Syndrome,27,3,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,DDT,DDT in Kale,15,1,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,deaths,Monthly Deaths from Lung Diseases in the UK,72,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,drivers,Deaths of Car Drivers in Great Britain 1969-84,192,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,eagles,Foraging Ecology of Bald Eagles,8,5,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,epil,Seizure Counts for Epileptics,236,9,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,farms,Ecological Factors in Farm Management,20,4,FALSE,FALSE,FALSE,FALSE,TRUE
+MASS,fgl,Measurements of Forensic Glass Fragments,214,10,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,forbes,Forbes' Data on Boiling Points in the Alps,17,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,GAGurine,Level of GAG in Urine of Children,314,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,galaxies,Velocities for 82 Galaxies,82,1,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,gehan,Remission Times of Leukaemia Patients,42,4,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,genotype,Rat Genotype Data,61,3,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,geyser,Old Faithful Geyser Data,299,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,gilgais,Line Transect of Soil in Gilgai Territory,365,9,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,hills,Record Times in Scottish Hill Races,35,3,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,housing,Frequency Table from a Copenhagen Housing Conditions Survey,72,5,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,immer,Yields from a Barley Field Trial,30,4,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,Insurance,Numbers of Car Insurance claims,64,5,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,leuk,Survival Times and White Blood Counts for Leukaemia Patients,33,3,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,mammals,Brain and Body Weights for 62 Species of Land Mammals,62,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,mcycle,Data from a Simulated Motorcycle Accident,133,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,Melanoma,Survival from Malignant Melanoma,205,7,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,menarche,Age of Menarche in Warsaw,25,3,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,michelson,Michelson's Speed of Light Data,100,3,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,minn38,Minnesota High School Graduates of 1938,168,5,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,motors,Accelerated Life Testing of Motorettes,40,3,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,muscle,Effect of Calcium Chloride on Muscle Contraction in Rat Hearts,60,3,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,newcomb,Newcomb's Measurements of the Passage Time of Light,66,1,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,nlschools,Eighth-Grade Pupils in the Netherlands,2287,6,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,npk,"Classical N, P, K Factorial Experiment",24,5,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,npr1,US Naval Petroleum Reserve No. 1 data,104,4,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,oats,Data from an Oats Field Trial,72,4,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,OME,Tests of Auditory Perception in Children with OME,1097,7,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,painters,The Painter's Data of de Piles,54,5,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,petrol,N. L. Prater's Petrol Refinery Data,32,6,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,phones,Belgium Phone Calls 1950-1973,24,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,Pima.te,Diabetes in Pima Indian Women,332,8,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,Pima.tr,Diabetes in Pima Indian Women,200,8,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,Pima.tr2,Diabetes in Pima Indian Women,300,8,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,quine,Absenteeism from School in Rural New South Wales,146,5,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,Rabbit,Blood Pressure in Rabbits,60,5,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,road,Road Accident Deaths in US States,26,6,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,rotifer,Numbers of Rotifers by Fluid Density,20,5,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,Rubber,Accelerated Testing of Tyre Rubber,30,3,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,ships,Ships Damage Data,40,5,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,shoes,"Shoe wear data of Box, Hunter and Hunter",10,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,shrimp,Percentage of Shrimp in Shrimp Cocktail,18,1,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,shuttle,Space Shuttle Autolander Problem,256,7,FALSE,TRUE,FALSE,FALSE,TRUE
+MASS,Sitka,Growth Curves for Sitka Spruce Trees in 1988,395,4,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,Sitka89,Growth Curves for Sitka Spruce Trees in 1989,632,4,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,Skye,AFM Compositions of Aphyric Skye Lavas,23,3,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,snails,Snail Mortality Data,96,6,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,SP500,Returns of the Standard and Poors 500,2780,1,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,steam,The Saturated Steam Pressure Data,14,2,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,stormer,The Stormer Viscometer Data,23,3,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,survey,Student Survey Data,237,12,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,synth.te,Synthetic Classification Problem,1000,3,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,synth.tr,Synthetic Classification Problem,250,3,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,topo,Spatial Topographic Data,52,3,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,Traffic,Effect of Swedish Speed Limits on Accidents,184,4,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,UScereal,Nutritional and Marketing Information on US Cereals,65,11,FALSE,FALSE,TRUE,FALSE,TRUE
+MASS,UScrime,The Effect of Punishment Regimes on Crime Rates,47,16,FALSE,TRUE,TRUE,FALSE,FALSE
+MASS,VA,Veteran's Administration Lung Cancer Trial,137,8,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,waders,Counts of Waders at 15 Sites in South Africa,15,19,FALSE,FALSE,TRUE,FALSE,FALSE
+MASS,whiteside,House Insulation: Whiteside's Data,56,3,FALSE,TRUE,TRUE,FALSE,TRUE
+MASS,wtloss,Weight Loss Data from an Obese Patient,52,2,FALSE,FALSE,TRUE,FALSE,FALSE
+mediation,boundsdata,Example Data for the Design Functions,1000,7,FALSE,TRUE,TRUE,FALSE,FALSE
+mediation,CEDdata,Example Data for the Crossover Encouragement Design,2000,7,FALSE,TRUE,TRUE,FALSE,FALSE
+mediation,framing,"Brader, Valentino and Suhay (2008) Framing Experiment Data",265,15,FALSE,TRUE,TRUE,FALSE,TRUE
+mediation,jobs,JOBS II data,899,17,FALSE,TRUE,TRUE,FALSE,TRUE
+mediation,school,School-level data,568,5,FALSE,TRUE,TRUE,FALSE,FALSE
+mediation,student,Hypothetical student-level data,9679,13,FALSE,TRUE,TRUE,FALSE,FALSE
+mi,CHAIN,Subset of variables from the CHAIN project,532,7,FALSE,TRUE,TRUE,FALSE,FALSE
+mi,nlsyV,National Longitudinal Survey of Youth Extract,400,7,FALSE,TRUE,TRUE,FALSE,FALSE
+mosaicData,Alcohol,Alcohol Consumption per Capita,411,4,FALSE,FALSE,TRUE,TRUE,FALSE
+mosaicData,Birthdays,US Births in 1969 - 1988,372864,7,FALSE,FALSE,TRUE,TRUE,TRUE
+mosaicData,Births,US Births,7305,8,FALSE,FALSE,TRUE,FALSE,TRUE
+mosaicData,Births2015,US Births in 2015,365,8,FALSE,FALSE,TRUE,FALSE,TRUE
+mosaicData,Births78,US Births in 1978,365,8,FALSE,FALSE,TRUE,FALSE,TRUE
+mosaicData,Cards,Standard Deck of Cards,52,1,FALSE,FALSE,FALSE,FALSE,TRUE
+mosaicData,CoolingWater,CoolingWater,222,2,FALSE,FALSE,TRUE,FALSE,FALSE
+mosaicData,Countries,Countries,288,3,FALSE,FALSE,FALSE,TRUE,FALSE
+mosaicData,CPS85,Data from the 1985 Current Population Survey (CPS85),534,11,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,Dimes,Weight of dimes,30,2,FALSE,FALSE,TRUE,FALSE,FALSE
+mosaicData,Galton,Galton's dataset of parent and child heights,898,6,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,Gestation,Data from the Child Health and Development Studies,1236,23,FALSE,FALSE,TRUE,FALSE,TRUE
+mosaicData,GoosePermits,Goose Permit Study,11,3,FALSE,FALSE,TRUE,FALSE,FALSE
+mosaicData,HeatX,Data from a heat exchanger laboratory,6,7,FALSE,TRUE,TRUE,FALSE,FALSE
+mosaicData,HELPfull,Health Evaluation and Linkage to Primary Care,1472,788,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,HELPmiss,Health Evaluation and Linkage to Primary Care,470,27,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,HELPrct,Health Evaluation and Linkage to Primary Care,453,29,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,KidsFeet,Foot measurements in children,39,8,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,Marriage,Marriage records,98,15,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,Mites,Mites and Wilt Disease,47,2,FALSE,TRUE,FALSE,FALSE,TRUE
+mosaicData,RailTrail,Volume of Users of a Rail Trail,90,11,TRUE,TRUE,TRUE,TRUE,FALSE
+mosaicData,Riders,Volume of Users of a Massachusetts Rail Trail,90,12,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,SaratogaHouses,Houses in Saratoga County (2006),1728,16,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,SAT,State by State SAT data,50,8,FALSE,FALSE,TRUE,FALSE,TRUE
+mosaicData,SnowGR,"Snowfall data for Grand Rapids, MI",119,15,FALSE,FALSE,TRUE,FALSE,FALSE
+mosaicData,SwimRecords,100 m Swimming World Records,62,3,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,TenMileRace,Cherry Blossom Race,8636,5,FALSE,TRUE,TRUE,FALSE,TRUE
+mosaicData,Utilities,Utility bills,117,12,FALSE,FALSE,TRUE,FALSE,TRUE
+mosaicData,Utilities2,Utility bills,117,19,FALSE,FALSE,TRUE,FALSE,TRUE
+mosaicData,Weather,Weather,3655,25,FALSE,TRUE,TRUE,TRUE,FALSE
+mosaicData,Whickham,Data from the Whickham survey,1314,3,FALSE,TRUE,TRUE,FALSE,TRUE
+multgee,arthritis,Rheumatoid Arthritis Clinical Trial,906,7,FALSE,TRUE,TRUE,FALSE,FALSE
+multgee,housing,Homeless Data,1448,4,FALSE,TRUE,TRUE,FALSE,FALSE
+plm,Cigar,Cigarette Consumption,1380,9,FALSE,FALSE,TRUE,FALSE,FALSE
+plm,Crime,Crime in North Carolina,630,24,FALSE,TRUE,TRUE,FALSE,TRUE
+plm,EmplUK,Employment and Wages in the United Kingdom,1031,7,FALSE,FALSE,TRUE,FALSE,FALSE
+plm,Gasoline,Gasoline Consumption,342,6,FALSE,FALSE,TRUE,FALSE,TRUE
+plm,Grunfeld,Grunfeld's Investment Data,200,5,FALSE,FALSE,TRUE,FALSE,FALSE
+plm,Hedonic,Hedonic Prices of Census Tracts in the Boston Area,506,15,FALSE,TRUE,TRUE,FALSE,TRUE
+plm,LaborSupply,Wages and Hours Worked,5320,7,FALSE,TRUE,TRUE,FALSE,FALSE
+plm,Males,Wages and Education of Young Males,4360,12,FALSE,TRUE,TRUE,FALSE,TRUE
+plm,Parity,Purchasing Power Parity and other parity relationships,1768,9,FALSE,FALSE,TRUE,FALSE,TRUE
+plm,Produc,US States Production,816,11,FALSE,FALSE,TRUE,FALSE,TRUE
+plm,RiceFarms,Production of Rice in Indonesia,1026,20,FALSE,FALSE,TRUE,FALSE,TRUE
+plm,Snmesp,Employment and Wages in Spain,5904,8,FALSE,FALSE,TRUE,FALSE,FALSE
+plm,SumHes,"The Penn World Table, v. 5",3250,7,FALSE,TRUE,TRUE,FALSE,TRUE
+plm,Wages,Panel Data of Individual Wages,4165,12,FALSE,TRUE,TRUE,FALSE,TRUE
+plyr,baseball,Yearly batting records for all major league baseball players,21699,22,FALSE,FALSE,TRUE,TRUE,FALSE
+plyr,ozone,Monthly ozone measurements over Central America.,24,1728,FALSE,FALSE,TRUE,FALSE,FALSE
+pscl,absentee,Absentee and Machine Ballots in Pennsylvania State Senate Races,22,8,FALSE,FALSE,TRUE,FALSE,FALSE
+pscl,admit,Applications to a Political Science PhD Program,106,6,FALSE,TRUE,TRUE,FALSE,TRUE
+pscl,AustralianElectionPolling,"Political opinion polls in Australia, 2004-07",239,14,FALSE,FALSE,TRUE,TRUE,TRUE
+pscl,AustralianElections,"elections to Australian House of Representatives, 1949-2016",27,19,FALSE,FALSE,TRUE,FALSE,FALSE
+pscl,bioChemists,article production by graduate students in biochemistry Ph.D. programs,915,6,FALSE,TRUE,TRUE,FALSE,TRUE
+pscl,ca2006,California Congressional Districts in 2006,53,13,TRUE,TRUE,TRUE,TRUE,FALSE
+pscl,EfronMorris,"Batting Averages for 18 major league baseball players, 1970",18,7,FALSE,TRUE,TRUE,FALSE,TRUE
+pscl,iraqVote,"U.S. Senate vote on the use of force against Iraq, 2002.",100,6,TRUE,TRUE,TRUE,TRUE,TRUE
+pscl,partycodes,political parties appearing in the U.S. Congress,85,2,FALSE,FALSE,TRUE,FALSE,TRUE
+pscl,politicalInformation,Interviewer ratings of respondent levels of political information,1807,8,FALSE,TRUE,TRUE,FALSE,TRUE
+pscl,presidentialElections,"elections for U.S. President, 1932-2016, by state",1097,4,TRUE,TRUE,TRUE,TRUE,FALSE
+pscl,prussian,Prussian army horse kick data,280,3,FALSE,FALSE,TRUE,FALSE,TRUE
+pscl,RockTheVote,"Voter turnout experiment, using Rock The Vote ads",85,6,FALSE,TRUE,TRUE,FALSE,FALSE
+pscl,state.info,information about the American states needed for U.S. Congress,51,3,FALSE,FALSE,TRUE,FALSE,TRUE
+pscl,UKHouseOfCommons,1992 United Kingdom electoral returns,521,12,FALSE,TRUE,TRUE,TRUE,FALSE
+pscl,unionDensity,cross national rates of trade union density,20,4,FALSE,FALSE,TRUE,FALSE,FALSE
+pscl,vote92,Reports of voting in the 1992 U.S. Presidential election.,909,9,FALSE,TRUE,TRUE,FALSE,TRUE
+psych,ability,16 ability items scored as correct or incorrect.,1525,16,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,affect,Two data sets of affect and arousal scores as a function of personality and movie conditions,330,20,FALSE,TRUE,TRUE,FALSE,TRUE
+psych,Bechtoldt,Seven data sets showing a bifactor solution.,17,17,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Bechtoldt.1,Seven data sets showing a bifactor solution.,17,17,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Bechtoldt.2,Seven data sets showing a bifactor solution.,17,17,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,bfi,25 Personality items representing 5 factors,2800,28,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,bfi.dictionary,25 Personality items representing 5 factors,28,7,FALSE,TRUE,TRUE,FALSE,TRUE
+psych,blant,A 29 x 29 matrix that produces weird factor analytic results,29,29,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,blot,Bond's Logical Operations Test - BLOT,150,35,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,burt,11 emotional variables from Burt (1915),11,11,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,cattell,12 cognitive variables from Cattell (1963),12,12,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,cities,Distances between 11 US cities,11,11,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,cubits,Galton's example of the relationship between height and 'cubit' or forearm length,9,8,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,cushny,"A data set from Cushny and Peebles (1905) on the effect of three drugs on hours of sleep, used by Student (1908)",10,7,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Dwyer,8 cognitive variables used by Dwyer for an example.,8,8,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,epi,Eysenck Personality Inventory (EPI) data for 3570 participants,3570,57,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,epi.bfi,13 personality scales from the Eysenck Personality Inventory and Big 5 inventory,231,13,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,epi.dictionary,Eysenck Personality Inventory (EPI) data for 3570 participants,57,1,FALSE,FALSE,FALSE,FALSE,TRUE
+psych,epiR,Eysenck Personality Inventory (EPI) data for 3570 participants,948,60,FALSE,TRUE,TRUE,TRUE,FALSE
+psych,galton,Galton's Mid parent child height data,928,2,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Gleser,"Example data from Gleser, Cronbach and Rajaratnam (1965) to show basic principles of generalizability theory.",12,12,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Gorsuch,Example data set from Gorsuch (1997) for an example factor extension.,10,10,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Harman.5,Five data sets from Harman (1967). 9 cognitive variables from Holzinger and 8 emotional variables from Burt,12,5,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Harman.8,Five data sets from Harman (1967). 9 cognitive variables from Holzinger and 8 emotional variables from Burt,8,8,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Harman.political,Five data sets from Harman (1967). 9 cognitive variables from Holzinger and 8 emotional variables from Burt,8,8,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,heights,A data.frame of the Galton (1888) height and cubit data set.,348,2,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Holzinger,Seven data sets showing a bifactor solution.,14,14,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Holzinger.9,Seven data sets showing a bifactor solution.,9,9,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,income,US family income from US census 2008,44,4,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,iqitems,16 multiple choice IQ items,1525,16,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,msq,75 mood items from the Motivational State Questionnaire for 3896 participants,3896,92,FALSE,TRUE,TRUE,FALSE,TRUE
+psych,msqR,75 mood items from the Motivational State Questionnaire for 3032 unique participants,6411,79,FALSE,TRUE,TRUE,TRUE,FALSE
+psych,neo,NEO correlation matrix from the NEO_PI_R manual,30,30,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,peas,Galton's Peas,700,2,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Reise,Seven data sets showing a bifactor solution.,16,16,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,sai,State Anxiety data from the PMC lab over multiple occasions.,5378,23,FALSE,FALSE,TRUE,FALSE,TRUE
+psych,sai.dictionary,State Anxiety data from the PMC lab over multiple occasions.,26,2,FALSE,TRUE,FALSE,FALSE,TRUE
+psych,sat.act,"3 Measures of ability: SATV, SATQ, ACT",700,6,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,Schmid,12 variables created by Schmid and Leiman to show the Schmid-Leiman Transformation,12,12,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Schutz,The Schutz correlation matrix example from Shapiro and ten Berge,9,9,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,spi,A sample from the SAPA Personality Inventory including an item dictionary and scoring keys.,4000,145,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,spi.dictionary,A sample from the SAPA Personality Inventory including an item dictionary and scoring keys.,145,4,FALSE,TRUE,FALSE,FALSE,TRUE
+psych,tai,State Anxiety data from the PMC lab over multiple occasions.,3032,23,FALSE,FALSE,TRUE,TRUE,TRUE
+psych,Tal_Or,Data set testing causal direction in presumed media influence,123,6,FALSE,TRUE,TRUE,FALSE,FALSE
+psych,Thurstone,Seven data sets showing a bifactor solution.,9,9,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Thurstone.33,Seven data sets showing a bifactor solution.,9,9,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Thurstone.9,Seven data sets showing a bifactor solution.,9,9,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,Tucker,9 Cognitive variables discussed by Tucker and Lewis (1973),9,9,FALSE,FALSE,TRUE,FALSE,FALSE
+psych,withinBetween,An example of the distinction between within group and between group correlations,16,10,FALSE,FALSE,TRUE,FALSE,TRUE
+quantreg,barro,Barro Data,161,14,FALSE,FALSE,TRUE,FALSE,FALSE
+quantreg,Bosco,Boscovich Data,5,2,FALSE,FALSE,TRUE,FALSE,FALSE
+quantreg,CobarOre,Cobar Ore data,38,3,FALSE,FALSE,TRUE,FALSE,FALSE
+quantreg,engel,Engel Data,235,2,FALSE,FALSE,TRUE,FALSE,FALSE
+quantreg,gasprice,Time Series of US Gasoline Prices,695,2,FALSE,FALSE,TRUE,FALSE,FALSE
+quantreg,Mammals,Garland(1983) Data on Running Speed of Mammals,107,4,TRUE,TRUE,TRUE,FALSE,FALSE
+quantreg,uis,UIS Drug Treatment study data,575,18,FALSE,TRUE,TRUE,FALSE,FALSE
+reshape2,french_fries,Sensory data from a french fries experiment.,696,9,FALSE,TRUE,TRUE,FALSE,TRUE
+reshape2,smiths,Demo data describing the Smiths.,2,5,FALSE,TRUE,TRUE,FALSE,TRUE
+reshape2,tips,Tipping data,244,7,FALSE,TRUE,TRUE,FALSE,TRUE
+robustbase,aircraft,Aircraft Data,23,5,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,airmay,Air Quality Data,31,4,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,alcohol,Alcohol Solubility in Water Data,44,7,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,ambientNOxCH,Daily Means of NOx (mono-nitrogen oxides) in air,366,14,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,Animals2,Brain and Body Weights for 65 Species of Land Animals,65,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,biomassTill,Biomass Tillage Data,58,4,FALSE,FALSE,TRUE,FALSE,TRUE
+robustbase,bushfire,Campbell Bushfire Data,38,5,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,carrots,Insect Damages on Carrots,24,4,FALSE,FALSE,TRUE,FALSE,TRUE
+robustbase,cloud,Cloud point of a Liquid,19,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,coleman,Coleman Data Set,20,6,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,condroz,Condroz Data,428,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,CrohnD,Crohn's Disease Adverse Events Data,117,9,FALSE,TRUE,TRUE,FALSE,TRUE
+robustbase,cushny,Cushny and Peebles Prolongation of Sleep Data,10,1,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,delivery,Delivery Time Data,25,3,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,education,Education Expenditure Data,50,6,FALSE,FALSE,TRUE,FALSE,TRUE
+robustbase,epilepsy,Epilepsy Attacks Data Set,59,11,FALSE,TRUE,TRUE,FALSE,TRUE
+robustbase,exAM,Example Data of Antille and May - for Simple Regression,12,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,foodstamp,Food Stamp Program Participation,150,4,FALSE,TRUE,TRUE,FALSE,FALSE
+robustbase,hbk,"Hawkins, Bradu, Kass's Artificial Data",75,4,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,heart,Heart Catherization Data,12,3,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,kootenay,Waterflow Measurements of Kootenay River in Libby and Newgate,13,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,lactic,Lactic Acid Concentration Measurement Data,20,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,los,Length of Stay Data,201,1,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,milk,Daudin's Milk Composition Data,86,8,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,NOxEmissions,NOx Air Pollution Data,8088,4,FALSE,FALSE,TRUE,FALSE,TRUE
+robustbase,pension,Pension Funds Data,18,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,phosphor,Phosphorus Content Data,18,3,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,pilot,Pilot-Plant Data,20,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,possumDiv,Possum Diversity Data,151,9,FALSE,TRUE,TRUE,FALSE,TRUE
+robustbase,pulpfiber,Pulp Fiber and Paper Data,62,8,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,radarImage,Satellite Radar Image Data from near Munich,1573,5,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,salinity,Salinity Data,28,4,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,SiegelsEx,Siegel's Exact Fit Example Data,9,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,starsCYG,Hertzsprung-Russell Diagram Data of Star Cluster CYG OB1,47,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,steamUse,Steam Usage Data (Excerpt),25,9,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,telef,Number of International Calls from Belgium,24,2,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,toxicity,Toxicity of Carboxylic Acids Data,38,10,FALSE,FALSE,TRUE,FALSE,FALSE
+robustbase,vaso,Vaso Constriction Skin Data Set,39,3,FALSE,TRUE,TRUE,FALSE,FALSE
+robustbase,wagnerGrowth,Wagner's Hannover Employment Growth Data,63,7,FALSE,FALSE,TRUE,FALSE,TRUE
+robustbase,wood,Modified Data on Wood Specific Gravity,20,6,FALSE,FALSE,TRUE,FALSE,FALSE
+rpart,car.test.frame,Automobile Data from 'Consumer Reports' 1990,60,8,FALSE,FALSE,TRUE,FALSE,TRUE
+rpart,car90,Automobile Data from 'Consumer Reports' 1990,111,34,FALSE,FALSE,TRUE,FALSE,TRUE
+rpart,cu.summary,Automobile Data from 'Consumer Reports' 1990,117,5,FALSE,FALSE,TRUE,FALSE,TRUE
+rpart,kyphosis,Data on Children who have had Corrective Spinal Surgery,81,4,FALSE,TRUE,TRUE,FALSE,TRUE
+rpart,solder,Soldering of Components on Printed-Circuit Boards,720,6,FALSE,TRUE,TRUE,FALSE,TRUE
+rpart,stagec,Stage C Prostate Cancer,146,8,FALSE,TRUE,TRUE,FALSE,TRUE
+sandwich,InstInnovation,Innovation and Institutional Ownership,6208,25,FALSE,TRUE,TRUE,FALSE,TRUE
+sandwich,Investment,US Investment Data,20,7,FALSE,FALSE,TRUE,FALSE,FALSE
+sandwich,PetersenCL,Petersen's Simulated Data for Assessing Clustered Standard Errors,5000,4,FALSE,FALSE,TRUE,FALSE,FALSE
+sandwich,PublicSchools,US Expenditures for Public Schools,51,2,FALSE,FALSE,TRUE,FALSE,FALSE
+sem,Bollen,Bollen's Data on Industrialization and Political Democracy,75,11,FALSE,FALSE,TRUE,FALSE,FALSE
+sem,CNES,Variables from the 1997 Canadian National Election Study,1529,4,FALSE,FALSE,FALSE,FALSE,TRUE
+sem,Klein,Klein's Data on the U. S. Economy,22,10,FALSE,FALSE,TRUE,FALSE,FALSE
+sem,Kmenta,Partly Artificial Data on the U. S. Economy,20,5,FALSE,FALSE,TRUE,FALSE,FALSE
+sem,Tests,Six Mental Tests,32,6,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Alfalfa,Alfalfa,15,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,ArcheryData,ArcheryData,18,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,AutoPollution,AutoPollution,36,4,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Backpack,Backpack,100,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,BaseballTimes,BaseballTimes,15,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,BeeStings,BeeStings,18,3,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,BirdNest,BirdNest,84,12,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Blood1,Blood1,500,3,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,BlueJays,Blue Jays,123,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,BritishUnions,BritishUnions,17,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,CAFE,CAFE,100,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,CalciumBP,CalciumBP,21,2,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,CancerSurvival,CancerSurvival,64,2,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Caterpillars,Caterpillars,267,18,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Cereal,Cereal,36,4,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,ChemoTHC,ChemoTHC,2,4,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,ChildSpeaks,ChildSpeaks,21,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Clothing,Clothing,60,8,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,CloudSeeding,Cloud Seeding,28,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,CloudSeeding2,Cloud Seeding 2,108,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,CO2,CO2,237,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,CrackerFiber,Cracker Fiber in Diets,48,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Cuckoo,Cuckoo,120,2,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Day1Survey,Day1Survey,43,13,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Diamonds,Diamonds,351,6,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Diamonds2,Diamonds2,307,6,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Election08,Election08,51,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Ethanol,Ethanol,16,3,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,FantasyBaseball,FantasyBaseball,24,9,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Fertility,Fertility,333,10,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,FGByDistance,FGByDistance,51,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Film,Film,100,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,FinalFourIzzo,FinalFourIzzo,1664,4,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,FinalFourLong,FinalFourLong,2048,3,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,FinalFourShort,FinalFourShort,512,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Fingers,Fingers,12,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,FirstYearGPA,FirstYearGPA,219,10,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,FishEggs,FishEggs,35,4,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,FlightResponse,FlightResponse,464,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Fluorescence,Fluorescence,51,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,FruitFlies,FruitFlies,125,7,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Goldenrod,Goldenrod Galls,1055,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Grocery,Grocery,36,5,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Gunnels,Gunnels,1592,10,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Hawks,Hawks,908,19,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,HawkTail,HawkTail,838,2,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,HawkTail2,HawkTail2,577,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,HearingTest,HearingTest,96,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,HighPeaks,HighPeaks,46,6,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Hoops,Hoops,147,22,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,HorsePrices,HorsePrices,50,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Houses,Houses,20,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,ICU,ICU,200,9,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,InfantMortality2010,Infant Mortality Rates,10,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,InsuranceVote,InsuranceVote,435,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Jurors,Jurors,52,4,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Kids198,Kids198,198,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Leafhoppers,Leafhopper Diet and Longevity,3,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Leukemia,Leukemia,51,9,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,LongJumpOlympics,LongJumpOlympics,26,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,LostLetter,LostLetter,140,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Marathon,Marathon,1127,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Markets,Markets,56,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,MathEnrollment,Math Enrollments,11,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,MathPlacement,Math Placement,2696,16,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,MedGPA,MedGPA,55,11,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,MentalHealth,Mental Health Admissions,36,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,MetabolicRate,Metabolic Rate of Caterpillars,305,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,MetroHealth83,MetroHealth83,83,16,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Milgram,Milgram,37,2,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,MLB2007Standings,MLB2007Standings,30,21,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,MothEggs,Moth Eggs,39,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,NCbirths,NCbirths,1450,15,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,NFL2007Standings,NFL2007Standings,32,10,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Nursing,Nursing,52,7,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Olives,Olives,18,7,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Orings,Orings,24,2,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Overdrawn,Overdrawn,450,4,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,PalmBeach,PalmBeach,67,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Pedometer,Pedometer,68,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Perch,Perch,56,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,PigFeed,PigFeed,12,3,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Pines,Pines,1000,15,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Political,Political,59,9,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Pollster08,Pollster08,102,11,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Popcorn,Popcorn,12,3,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,PorscheJaguar,PorscheJaguar,60,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,PorschePrice,PorschePrice,30,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Pulse,Pulse,232,7,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Putts1,Putts1,587,2,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Putts2,Putts2,5,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,ReligionGDP,ReligionGDP,44,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Retirement,Retirement,16,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,RiverElements,RiverElements,12,27,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,RiverIron,River Iron,12,4,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,SampleFG,SampleFG,30,13,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,SandwichAnts,Sandwich Ants,48,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,SATGPA,SAT scores and GPA,24,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,SeaSlugs,Sea Slugs,36,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Sparrows,Sparrows,116,3,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,SpeciesArea,Species Area,14,5,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,Speed,Speed,21,3,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,Swahili,Swahili,480,4,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,TextPrices,Text Prices,30,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,ThreeCars,Three Cars,90,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,TipJoke,Tip Joke,211,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,Titanic,Titanic,1313,6,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,TMS,TMS,2,4,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,TomlinsonRush,LaDainian Tomlinson Rushing Yards,16,4,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,TwinsLungs,TwinsLungs,14,3,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,USstamps,USstamps,25,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,Volts,Volts,50,2,FALSE,FALSE,TRUE,FALSE,FALSE
+Stat2Data,WalkingBabies,WalkingBabies,24,2,FALSE,FALSE,TRUE,FALSE,TRUE
+Stat2Data,WeightLossIncentive,WeightLossIncentive,38,3,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,WeightLossIncentive4,WeightLossIncentive4,36,2,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,WeightLossIncentive7,WeightLossIncentive7,33,2,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,WordMemory,WordMemory,40,4,FALSE,TRUE,TRUE,FALSE,TRUE
+Stat2Data,YouthRisk2007,YouthRisk2007,13387,6,FALSE,TRUE,TRUE,FALSE,FALSE
+Stat2Data,YouthRisk2009,YouthRisk2009,500,6,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,bladder,Bladder Cancer Recurrences,340,7,FALSE,TRUE,TRUE,FALSE,FALSE
+survival,cancer,NCCTG Lung Cancer Data,228,10,FALSE,TRUE,TRUE,FALSE,FALSE
+survival,cgd,Chronic Granulotomous Disease data,203,16,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,colon,Chemotherapy for Stage B/C colon cancer,1858,16,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,flchain,Assay of serum free light chain for 7874 subjects.,7874,11,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,genfan,Generator fans,70,2,FALSE,TRUE,TRUE,FALSE,FALSE
+survival,heart,Stanford Heart Transplant data,172,8,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,kidney,Kidney catheter data,76,7,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,leukemia,Acute Myelogenous Leukemia survival data,23,3,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,logan,Data from the 1972-78 GSS data used by Logan,838,4,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,lung,NCCTG Lung Cancer Data,228,10,FALSE,TRUE,TRUE,FALSE,FALSE
+survival,mgus,Monoclonal gammapothy data,241,12,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,mgus2,Monoclonal gammapothy data,1384,10,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,myeloid,Acute myeloid leukemia,646,7,FALSE,TRUE,TRUE,TRUE,FALSE
+survival,nwtco,Data from the National Wilm's Tumor Study,4028,9,TRUE,TRUE,TRUE,FALSE,FALSE
+survival,ovarian,Ovarian Cancer Survival Data,26,6,FALSE,TRUE,TRUE,FALSE,FALSE
+survival,pbc,Mayo Clinic Primary Biliary Cirrhosis Data,418,20,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,rats,Rat treatment data from Mantel et al,300,5,FALSE,TRUE,TRUE,TRUE,FALSE
+survival,retinopathy,Diabetic Retinopathy,394,9,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,rhDNase,rhDNASE data set,767,8,FALSE,TRUE,TRUE,FALSE,FALSE
+survival,solder,Data from a soldering experiment,900,6,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,stanford2,More Stanford Heart Transplant data,184,5,FALSE,TRUE,TRUE,FALSE,FALSE
+survival,tobin,Tobin's Tobit data,20,3,FALSE,FALSE,TRUE,FALSE,FALSE
+survival,transplant,Liver transplant waiting list,815,6,FALSE,TRUE,TRUE,FALSE,TRUE
+survival,uspop2,Projected US Population,101,42,FALSE,FALSE,TRUE,FALSE,FALSE
+survival,veteran,Veterans' Administration Lung Cancer study,137,8,FALSE,TRUE,TRUE,FALSE,TRUE
+texmex,liver,Liver related laboratory data,606,9,FALSE,FALSE,TRUE,FALSE,TRUE
+texmex,nidd,"Rain, wavesurge, portpirie and nidd datasets.",154,1,FALSE,FALSE,TRUE,FALSE,FALSE
+texmex,portpirie,"Rain, wavesurge, portpirie and nidd datasets.",65,2,FALSE,FALSE,TRUE,FALSE,FALSE
+texmex,rain,"Rain, wavesurge, portpirie and nidd datasets.",17531,1,FALSE,FALSE,TRUE,FALSE,FALSE
+texmex,summer,"Air pollution data, separately for summer and winter months",578,5,FALSE,FALSE,TRUE,FALSE,FALSE
+texmex,wavesurge,"Rain, wavesurge, portpirie and nidd datasets.",2894,2,FALSE,FALSE,TRUE,FALSE,FALSE
+texmex,winter,"Air pollution data, separately for summer and winter months",532,5,FALSE,FALSE,TRUE,FALSE,FALSE
+vcd,Arthritis,Arthritis Treatment Data,84,5,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Baseball,Baseball Data,322,25,FALSE,TRUE,TRUE,TRUE,TRUE
+vcd,BrokenMarriage,Broken Marriage Data,20,4,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Bundesliga,Ergebnisse der Fussball-Bundesliga,14018,7,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,Bundestag2005,Votes in German Bundestag Election 2005,80,3,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,Butterfly,Butterfly Species in Malaya,24,2,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,CoalMiners,Breathlessness and Wheeze in Coal Miners,36,4,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,DanishWelfare,Danish Welfare Study Data,180,5,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,Employment,Employment Status,24,4,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Federalist,'May' in Federalist Papers,7,2,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,Hitters,Hitters Data,154,4,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,HorseKicks,Death by Horse Kicks,5,2,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,Hospital,Hospital data,9,3,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,JobSatisfaction,Job Satisfaction Data,8,4,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,JointSports,Opinions About Joint Sports,40,5,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Lifeboats,Lifeboats on the Titanic,18,8,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,MSPatients,Diagnosis of Multiple Sclerosis,4,8,FALSE,FALSE,TRUE,FALSE,FALSE
+vcd,NonResponse,Non-Response Survey Data,12,4,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,OvaryCancer,Ovary Cancer Data,16,5,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,PreSex,Pre-marital Sex and Divorce,16,5,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Punishment,Corporal Punishment Data,36,5,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,RepVict,Repeat Victimization Data,64,3,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,Rochdale,Rochdale Data,256,9,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Saxony,Families in Saxony,13,2,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,SexualFun,Sex is Fun,16,3,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,SpaceShuttle,Space Shuttle O-ring Failures,24,6,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Suicide,Suicide Rates in Germany,306,6,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,Trucks,Truck Accidents Data,24,5,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,UKSoccer,UK Soccer Scores,25,3,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,VisualAcuity,Visual Acuity in Left and Right Eyes,32,4,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,VonBort,Von Bortkiewicz Horse Kicks Data,280,4,FALSE,TRUE,TRUE,FALSE,TRUE
+vcd,WeldonDice,Weldon's Dice Data,11,2,FALSE,FALSE,TRUE,FALSE,TRUE
+vcd,WomenQueue,Women in Queues,11,2,FALSE,FALSE,TRUE,FALSE,TRUE
+Zelig,approval,U.S. Presidential Approval Data,65,8,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,bivariate,Sample data for bivariate probit regression,78,6,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,CigarettesSW,Cigarette Consumption Panel Data,96,9,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,coalition,Coalition Dissolution in Parliamentary Democracies,314,7,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,coalition2,"Coalition Dissolution in Parliamentary Democracies, Modified Version",314,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,eidat,Simulation Data for Ecological Inference,10,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,free1,Freedom of Speech Data,450,11,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,free2,Freedom of Speech Data,450,11,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,friendship,Simulated Example of Schoolchildren Friendship Network,0,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,grunfeld,Simulation Data for model Seemingly Unrelated Regression (sur) that corresponds to method SUR of systemfit,20,7,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,hoff,Social Security Expenditure Data,36,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,homerun,Sample Data on Home Runs Hit By Mark McGwire and Sammy Sosa in 1998.,314,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,immi1,Individual Preferences Over Immigration Policy,2485,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,immi2,Individual Preferences Over Immigration Policy,2485,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,immi3,Individual Preferences Over Immigration Policy,2485,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,immi4,Individual Preferences Over Immigration Policy,2485,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,immi5,Individual Preferences Over Immigration Policy,2485,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,immigration,Individual Preferences Over Immigration Policy,2485,5,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,klein,Simulation Data for model Two-Stage Least Square (twosls) that corresponds to method 2SLS of systemfit,21,14,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,kmenta,Simulation Data for model Three-Stage Least Square (threesls) that corresponds to method 3SLS of systemfit,20,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,macro,Macroeconomic Data,350,6,FALSE,FALSE,TRUE,FALSE,TRUE
+Zelig,MatchIt.url,Table of links for Zelig,2,2,FALSE,TRUE,FALSE,FALSE,TRUE
+Zelig,mexico,Voting Data from the 1988 Mexican Presidental Election,1359,33,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,mid,Militarized Interstate Disputes,3126,7,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,newpainters,The Discretized Painter's Data of de Piles,54,4,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,PErisk,Political Economic Risk Data from 62 Countries in 1987,62,6,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,sanction,Multilateral Economic Sanctions,78,8,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,seatshare,Left Party Seat Share in 11 OECD Countries,384,4,FALSE,FALSE,TRUE,TRUE,FALSE
+Zelig,sna.ex,Simulated Example of Social Network Data,0,5,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,SupremeCourt,U.S. Supreme Court Vote Matrix,43,9,FALSE,TRUE,TRUE,FALSE,FALSE
+Zelig,swiss,Swiss Fertility and Socioeconomic Indicators (1888) Data,47,6,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,tobin,Tobin's Tobit Data,20,3,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,turnout,Turnout Data Set from the National Election Survey,2000,5,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,voteincome,Sample Turnout and Demographic Data from the 2000 Current Population Survey,1500,7,FALSE,TRUE,TRUE,FALSE,TRUE
+Zelig,Weimar,1932 Weimar election data,10,11,FALSE,FALSE,TRUE,FALSE,FALSE
+Zelig,Zelig.url,Table of links for Zelig,49,2,FALSE,FALSE,FALSE,FALSE,TRUE
