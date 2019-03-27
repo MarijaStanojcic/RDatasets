@@ -37,7 +37,7 @@ install.packages("plm")
 install.packages("plyr")
 install.packages("pscl")
 install.packages("psych")
-install.packages("quantreg"
+install.packages("quantreg")
 install.packages("reshape2")
 install.packages("robustbase")
 install.packages("rpart")
@@ -45,7 +45,7 @@ install.packages("sandwich")
 install.packages("sem")
 install.packages("Stat2Data")
 install.packages("survival")
-install.packages("texmex"
+install.packages("texmex")
 install.packages("vcd")
 install.packages("Zelig")
 
