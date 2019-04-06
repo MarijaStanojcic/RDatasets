@@ -110,18 +110,18 @@ Checking if datas have factor, character variables, etc.
 # 17th observation is cd4.nesteed which is a bootstrap, not data
 # code can't work for bootstrap, so cd4.nested is removed
 
-rdatasets_new <- rdatasets[c(1:16,18:1243),] # taking everything exept cd4.nested
+rdatasets_new <- rdatasets[c(1:16,18:285,288:1243),] # taking everything exept cd4.nested, Harman23.cor, Harman74.cor
 
-rdatasets_new$Item <- as.character(rdatasets_new$Item)
-rdatasets_new$Item[1075] <- "InfantMortality2010"     # "InfantMortality" is in the 1076 row
-rdatasets_new$Item[1079] <- "Leafhoppers"     
-
-rdatasets_new$Title <- as.character(rdatasets_new$Title)
-rdatasets_new$Title[1075] <- "Infant Mortality Rates"
-rdatasets_new$Title[1079] <- "Leafhopper Diet and Longevity"   
-
-rdatasets_new$Rows[1075] <- 10
-rdatasets_new$Rows[1079] <- 3
+#rdatasets_new$Item <- as.character(rdatasets_new$Item)
+#rdatasets_new$Item[1075] <- "InfantMortality2010"     # "InfantMortality" is in the 1076 row
+#rdatasets_new$Item[1079] <- "Leafhoppers"     
+#
+#rdatasets_new$Title <- as.character(rdatasets_new$Title)
+#rdatasets_new$Title[1075] <- "Infant Mortality Rates"
+#rdatasets_new$Title[1079] <- "Leafhopper Diet and Longevity"   
+#
+#rdatasets_new$Rows[1075] <- 10
+#rdatasets_new$Rows[1079] <- 3
 
 itm <- as.character(rdatasets_new$Item)
 package_name <- as.character(rdatasets_new$Package)
@@ -202,7 +202,7 @@ summary(rdatasets_new)
 On the end export the dataset to .csv file, so it can be used for app. 
 
 ```{r}
-# write.csv(rdatasets_new, file = "Rdatas.csv")
+write.csv(rdatasets_new, file = "Rdatas.csv")
 ```
 
 
