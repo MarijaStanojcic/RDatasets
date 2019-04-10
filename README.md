@@ -1,3 +1,6 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarijaStanojcic/RDatasets/master)
+
+
 # R Shiny App
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarijaStanojcic/RDatasets/master?urlpath=shiny/APP/)
