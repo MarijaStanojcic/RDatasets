@@ -14,39 +14,7 @@ onStop(function() {
 
  rdatasets1 <- read.csv("Rdatas.csv", header = TRUE)
 
-# rdatasets1$Package %>% unique() -> pkgs
-
-# Rdatas$Package %>% unique() -> pkgs
-
-# pkgs <- as.vector(t(pkgs)) # vector of all unique packages 
-
-# install.packages("easypackages")
 library(easypackages)
-
-
-# installed_pkgs <- as.data.frame(installed.packages()) # data frame with all installed packages and 
-# some additional information about packages 
-# head(installed_pkgs$Package) # preview of a first few installed packages' names
-
-
-# Installing packages that aren't already installed 
-# t_f <- pkgs %in% installed_pkgs$Package # logical vector to see which packages are already installed
-
-# sum(t_f) = length(pkgs) means that all packages are already installed
-# if (sum(t_f) != length(pkgs)) install.packages(pkgs[!t_f]) # install packages that aren't already installed
-
-# Loading packages
-# loaded_pkgs <- (.packages()) # list of already loaded packages
-
-# loading packages that aren't already loaded 
-# suppressPackageStartupMessages(easypackages::libraries(pkgs[!(pkgs %in% loaded_pkgs)]))  
-# suppressPackageStartupMessages(easypackages::libraries(pkgs))  
-
-
-
-
-# This part is copying on the clipboard all the library(package_name) and then just right click and paste
-# paste0("library(", pkgs, ")") %>% clipr::write_clip()
 
 
 library(boot)
