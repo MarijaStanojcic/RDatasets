@@ -1,9 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarijaStanojcic/RDatasets/master)
-
-
 # R Shiny App
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarijaStanojcic/RDatasets/master?urlpath=shiny/APP/)
 
 Here is the link https://marija-stanojcic.shinyapps.io/R_datasets/ to my R Shiny app, where you can actually search through all of these data, see the preview and summary of the data that you are interested in. 
 
